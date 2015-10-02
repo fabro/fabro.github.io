@@ -141,8 +141,8 @@ res(amer_ras8) &lt;- 8</code></pre>
 <pre><code>plot(bats_raster8)</code></pre>
 <p>e aí, mudou? onde fica mais diferente?</p>
 </div>
-<div id="agora-pra-o-brasil" class="section level2">
-<h2>Agora pra o Brasil</h2>
+<div id="agora-pro-brasil" class="section level2">
+<h2>Agora pro Brasil</h2>
 <p>raster novo</p>
 <pre><code>ras_2 &lt;- raster()
 
@@ -189,38 +189,6 @@ res(ras_brasil5) &lt;- 5</code></pre>
 plot(wrld_simpl_brazil,add=T)</code></pre>
 <p>mudou? quanto? onde tem mais diferenças?</p>
 </div>
-</div>
-<div id="abordagem-correlativa-relacoes-entre-variaveis" class="section level1">
-<h1>Abordagem correlativa – Relações entre variáveis</h1>
-<pre><code>aet &lt;- raster(&quot;/Users/fabro/laboratorio Macroecología/Collabs/AET.rar Folder/AET.bil&quot;)
-aet &lt;- raster(&quot;file_path&quot;)
-
-npp &lt;- raster(&quot;/Users/fabro/laboratorio Macroecología/Collabs/npp2.asc&quot;)
-npp &lt;- raster(&quot;file_path&quot;)
-#conferir se o raster ta projetado
-projection(npp)
-#se não estiver projetado (ter referência geográfica), definir uma (a &quot;default&quot;, coordenadas geográficas)
-proj4string(npp) &lt;- CRS(&quot;+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs&quot;)</code></pre>
-<p>Cortar os rasters de NPP e AET pro extent do raster da America (criado acima, de 1º de resolução)</p>
-<pre><code>aet_amer  &lt;- crop(aet,extent(amer_ras))
-npp_amer  &lt;- crop(npp,extent(amer_ras))</code></pre>
-<p>Agregar os valores de NPP e AET numa resolução maior</p>
-<pre><code>aet_amer1  &lt;- aggregate(aet_amer,2)
-npp_amer1  &lt;- aggregate(npp_amer,2)</code></pre>
-<p>Os valores de AET nos océanos é de 255, tem que transformar pra NA</p>
-<pre><code>aet_amer1_vals &lt;- values(aet_amer1)
-aet_amer1_vals &lt;- ifelse(aet_amer1_vals==255,NA,aet_amer1_vals)
-aet_amer1_nas &lt;- aet_amer1
-values(aet_amer1_nas) &lt;- aet_amer1_vals</code></pre>
-<p>Obter as coordenadas do raster dos morcegos</p>
-<pre><code>bats_ras_coords &lt;- xyFromCell(bats_raster, 1:length(values(bats_raster)))</code></pre>
-<p>Obter os valores de AET nos locais aonde tem morcegos. Trocar NAs por 0</p>
-<pre><code>bats_ras_aet &lt;- extract(aet_amer1_nas,bats_ras_coords)
-bats_ras_rich &lt;- values(bats_raster)
-bats_ras_rich_nonas &lt;- ifelse(is.na(bats_ras_rich),0,bats_ras_rich)
-bats_ras_aet_nonas &lt;- ifelse(is.na(bats_ras_aet),0,bats_ras_aet)</code></pre>
-<p>correlação entre riqueza e aet</p>
-<pre><code>cor(bats_ras_aet_nonas,bats_ras_rich_nonas)</code></pre>
 </div>
 
 
