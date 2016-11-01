@@ -128,6 +128,7 @@ Instituto de Ecología, A.C.</p></em></h3>
 <pre class="r"><code>library(letsR)
 library(sp)
 library(spdep)
+library(ape)
 library(vegan)</code></pre>
 <p>Usaremos los datos de las aves endémicas de México (Villalobos et al. 2013. Biological Conservation), pero a una resolución menor (1º) para facilitar los análisis.</p>
 <p>Cargar el WD del ejercicio anterior (GWR)</p>
@@ -145,7 +146,7 @@ colnames(mexras.coords) &lt;- c(&quot;Longitude(x)&quot;, &quot;Latitude(y)&quot
 <p>Ahora podemos rasterizar el mapa de riqueza original y las variables ambientales para resolución de 1º</p>
 <pre class="r"><code>aves.geo.ras &lt;- rasterize(aves.geo, mex.ras, field=&quot;spp_rich&quot;, fun=mean)
 #Cómo se ve?
-plot(aves.geos.ras)
+plot(aves.geo.ras)
 plot(mexico, add=T)
 #rasterizar los valores de las variables climáticas a 1º (originalmente a 1km2)
 mex.temp1 &lt;- extract(mex.temp, mexras.coords)
@@ -172,19 +173,21 @@ aves.ras1.lm.moran &lt;- lets.correl(residuals(aves.ras1.lm),aves.ras1.coords.di
 <pre class="r"><code>#Crear la matriz de distancia, como un objeto &quot;matrix&quot; en lugar de &quot;dist&quot;
 mat.dist &lt;- lets.distmat(aves.ras1.data.comp[,c(1,2)], asdist = FALSE)
 
-#Truncarla
+#Generar la matriz truncada, con base en la distancia en donde ya no tenemos autocorrelación (checar con el correlagrama de Moran creado arriba)
 mat.dist.w &lt;- ifelse(test = mat.dist &gt; 239, yes = 4*239, no = mat.dist)
 
-#invertir la matriz para que las distancias cortas tengan más peso
+#&quot;Invertir&quot; la matriz para que las distancias cortas tengan más peso: matriz de pesos &quot;w&quot;.
+#NOTA: este paso no es una &quot;inversión&quot; estadísticamente hablando de la matriz, sino simplemente una transformación de nuestros valores para que los más pequeños pesen más y los más altos pesen menos. Para invertir una matriz de manera estadística, vean la función &quot;solve&quot;
 w &lt;- 1/mat.dist.w
 diag(w) &lt;- 0
 
-#Checar el coeficiente de autocorrelación global (Moran's I) usando la nueva matriz
+#Checar el coeficiente de autocorrelación global (Moran's I) usando la nueva matriz de pesos &quot;w&quot;
 Moran.I(residuals(aves.ras1.lm),w)</code></pre>
-<p>Paso 2. Conducir el “eigenanalysis” de la matriz de distancias</p>
-<pre class="r"><code># PCOA - del paquete &quot;ape&quot;. La matriz tiene que ser cuadrada)
+<p>Paso 2. Conducir el “eigenanalysis” de la matriz de distancias (PCoA: análisis de coordenadas principales)</p>
+<pre class="r"><code># PCoA - del paquete &quot;ape&quot;. (La matriz tiene que ser cuadrada)
 #NOTA: la función &quot;pcoa&quot; centraliza la matriz, por tanto no es necesario hacerlo antes
-aves.pcord &lt;- pcoa(w,correction=&quot;none&quot;, rn=NULL)
+#NOTA2: el PCoA se construye a partir de la matriz truncada, no de la matriz de pesos.
+aves.pcord &lt;- pcoa(mat.dist.w,correction=&quot;none&quot;, rn=NULL)
 
 # Crear un objeto que &quot;salve&quot; los eigenvectors generados
 aves.vecold &lt;- aves.pcord$vectors
@@ -197,7 +200,7 @@ for(i in 1:n-1){
   m1 &lt;-lm(aves.ras1.data.comp$spp_richness~aves.vecold[,1:i]+aves.ras1.data.comp$total_precipitation+aves.ras1.data.comp$precipitation_seazonality+aves.ras1.data.comp$mean_annual_temperature+aves.ras1.data.comp$temperature_seazonality)
   res &lt;-m1$residuals        
   mor &lt;- Moran.I(res,w)
-  p.mor &lt;-mor$p.value
+  p.mor&lt;-mor$p.value
   if (p.mor&gt;0.05){vec.sel &lt;-(i+2)}
   if (p.mor&gt;0.05){break}
 }
