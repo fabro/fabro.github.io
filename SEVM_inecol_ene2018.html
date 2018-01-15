@@ -168,8 +168,8 @@ aves.ras1.coords.dist &lt;- lets.distmat(aves.ras1.data.comp[,c(1,2)])
 #Ahora sí podemos calcular el I de Moran para diferentes clases de distancia y ver el correlograma resultante
 aves.ras1.lm.moran &lt;- lets.correl(residuals(aves.ras1.lm),aves.ras1.coords.dist,10)</code></pre>
 <p>¿Qué tal? ¿Existe autocorrelación? ¿Mucha/Poca? ¿En cuántas clases de distancia?</p>
-<div id="eigenvector-based-spatial-filters" class="section level1">
-<h1>Eigenvector-based Spatial Filters</h1>
+<div id="eigenvector-based-spatial-filters" class="section level2">
+<h2>Eigenvector-based Spatial Filters</h2>
 <p>Paso 1. Crear la matriz de distancias, “truncarla” usando la distancia identificada en el autocorrelagrama de Moran (cuál sería?) e invertirla para que las distancias cortas tengan más peso</p>
 <pre class="r"><code>#Crear la matriz de distancia, como un objeto &quot;matrix&quot; en lugar de &quot;dist&quot;
 mat.dist &lt;- lets.distmat(aves.ras1.data.comp[,c(1,2)], asdist = FALSE)
@@ -209,7 +209,10 @@ for(i in 1:n-1){
 #salvar los vectores seleccionados
 aves.vecsel &lt;- aves.vecold[,1:vec.sel]</code></pre>
 <p>¿Cuántos vectores fueron seleccionados?</p>
-<p>¿Y si lo vemos en el mapa? (SEVM: spatial eigenvector mapping)</p>
+</div>
+<div id="sevm-spatial-eigenvector-mapping" class="section level2">
+<h2>SEVM: spatial eigenvector mapping</h2>
+<p>¿Y si lo vemos en el mapa?</p>
 <pre class="r"><code>#Rasterizar los vectores seleccionados, algunos como ejemplo (el primero y el último; amplia y pequeña escala, respectivamente)
 
 #primer vector (amplia escala)

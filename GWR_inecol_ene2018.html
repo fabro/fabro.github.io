@@ -134,8 +134,8 @@ library(classInt)
 library(RColorBrewer)</code></pre>
 <p>Vamos a usar los mismos datos y objetos generados que en el ejercicio anterior (GLS; Villalobos et al. 2013. Biological Conservation). Ya deben estar en su WD (i.e. cargar el “workspace” del ejercicio anterior).</p>
 <pre class="r"><code>load(&quot;~gls.RData&quot;)</code></pre>
-<div id="ols" class="section level1">
-<h1>OLS</h1>
+<div id="ols-ordinary-least-squares" class="section level2">
+<h2>OLS (ordinary least-squares)</h2>
 <p>Ajustar un modelo lineal (“global”) entre riqueza de aves endémicas y ambiente (temperatura, precipitación y sus estacionalidades)</p>
 <pre class="r"><code>aves.global.model &lt;- lm(spp_richness ~ mean_annual_temperature + temperature_seazonality + total_precipitation + precipitation_seazonality, data=aves.spt)</code></pre>
 <p>¿Cómo se ve? ¿Es un buen modelo?</p>
@@ -173,8 +173,8 @@ plot(r.lr2)
 plot(mexico, add=T)</code></pre>
 <p>Y ahora, ¿cómo se ve? ¿existe “no-estacionaridad”?</p>
 </div>
-<div id="gwr" class="section level1">
-<h1>GWR</h1>
+<div id="gwr-geographically-weighted-regression" class="section level2">
+<h2>GWR (geographically weighted regression)</h2>
 <p>Obtener el “bandwidth” del kernel espacial mediante validación cruzada (“cross-validation”)</p>
 <pre class="r"><code>aves.bw &lt;- gwr.sel(spp_richness ~ mean_annual_temperature+temperature_seazonality+total_precipitation+precipitation_seazonality, data=aves.spt, gweight = gwr.Gauss, verbose = FALSE)</code></pre>
 <p>NOTA: función de ponderación espacial es de tipo Gaussiana. Para este ejemplo, dada la dispersión espacial de los datos, no es posible ajustar un bandwidth adaptativo</p>
