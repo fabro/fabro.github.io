@@ -132,72 +132,8 @@ library(rgeos)
 library(spgwr)
 library(classInt)
 library(RColorBrewer)</code></pre>
-<p>En este ejemplo, vamos a usar datos de las aves de México. Datos usados en Villalobos et al. 2013. Biological Conservation. (ya debe estar en su WD)</p>
-<pre class="r"><code>#para ver los datos &quot;originales&quot;, cargar el shapefile
-aves.endemic &lt;- readShapePoly(&quot;spatialData/aves_endemics7887.shp&quot;)
-#definir la proyección (ya debemos conocerla)
-projection(aves.endemic) &lt;- &quot;+proj=longlat +ellps=clrk66 +no_defs&quot;
-
-#cargar un shapefile de México
-mexico &lt;- readShapePoly(&quot;spatialData/destdv1gw/destdv1gw.shp&quot;)
-projection(mexico) &lt;- &quot;+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0&quot;
-#&quot;guardar&quot; la referencia del objeto &quot;mexico&quot;geográfica en otro objeto, que será usada más adelante
-crs_mexico &lt;- &quot;+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0&quot;
-#proyectar los dos shapefiles (aves endémicas y México) en la misma proyección
-aves.geo &lt;- spTransform(aves.endemic, proj4string(mexico))</code></pre>
-<p>Graficar el mapa de riqueza de las aves endémicas de México</p>
-<pre class="r"><code>#definir los colores y la escala
-colours &lt;- brewer.pal(9, &quot;Blues&quot;)
-brks&lt;-classIntervals(aves.geo$spp_rich, n=9, style=&quot;quantile&quot;)
-brks&lt;- brks$brks
-plot(aves.geo, col=colours[findInterval(aves.geo$spp_rich, brks, all.inside=TRUE)], axes=T, border=NA)
-
-legend(x=-95, y=35, legend=leglabs(brks), fill=colours, bty=&quot;n&quot;)</code></pre>
-<p>Cargar datos de “comunidades” (“” porque fueron muestreadas aleatoriamente a partir del shapefile de aves endémicas mencionado arriba).</p>
-<pre class="r"><code>#Cargar el objeto de R proporcionado
-load(&quot;spatialData/aves_comunidades.Rdata&quot;)</code></pre>
-<p>Graficar las “comunidades” en el mapa de México</p>
-<pre class="r"><code>#Checar que solo queden aquellas &quot;comunidades&quot; dentro del país
-plot(mexico)
-plot(aves_comunidades,add=T,col=&quot;blue&quot;,pch=19)</code></pre>
-<p>Cargar datos ambientales para México (datos de Cuervo-Robayo A. P., O. Téllez-Valdés, M. Gómez, C. Venegas-Barrera, J. Manjarrez y E. Martínez-Meyer. (2013). An update of high-resolution monthly climate surfaces for Mexico. International Journal of Climatology. Doi: 10.1002/joc.3848. <a href="http://idrisi.uaemex.mx/ligas/geogadatos?id=8" class="uri">http://idrisi.uaemex.mx/ligas/geogadatos?id=8</a>)</p>
-<pre class="r"><code>#temperatura promedio anual
-mex.temp &lt;- raster(&quot;spatialData/bio1.asc&quot;)
-#estacionalidad de temperatura
-mex.temp.sz &lt;- raster(&quot;spatialData/bio4.asc&quot;)
-#precipitación total anual
-mex.pp &lt;- raster(&quot;spatialData/bio12.asc&quot;)
-#estacionalidad de precipitación
-mex.pp.sz &lt;- raster(&quot;spatialData/bio15.asc&quot;)
-
-#asignar un sistema de coordenadas (el mismo que el mapa de México)
-crs(mex.temp) &lt;- crs_mexico
-crs(mex.temp.sz) &lt;- crs_mexico
-crs(mex.pp) &lt;- crs_mexico
-crs(mex.pp.sz) &lt;- crs_mexico</code></pre>
-<p>Obtener los valores ambientales correspondientes a las “comunidades” de aves</p>
-<pre class="r"><code>aves_coms_temp &lt;- as.data.frame(extract(mex.temp, aves_comunidades))
-aves_coms_temp_sz &lt;- as.data.frame(extract(mex.temp.sz, aves_comunidades))
-
-aves_coms_pp &lt;- as.data.frame(extract(mex.pp, aves_comunidades))
-aves_coms_pp_sz &lt;- as.data.frame(extract(mex.pp.sz, aves_comunidades))</code></pre>
-<p>Convertir los datos en objetos espaciales, preparando un único conjunto de datos que incluya la riqueza de especies y las variables ambientales</p>
-<pre class="r"><code>#crear objetos faltantes
-long &lt;- aves_comunidades$longitude
-lat &lt;-   aves_comunidades$latitude
-aves_com_rich_coords &lt;- cbind(long,lat)
-aves_coms_rich &lt;- aves_comunidades$aves_coms_rich
-
-#Juntar los datos en un data.frame espacial
-aves.data &lt;- as.data.frame(cbind(aves_com_rich_coords,aves_coms_rich,aves_coms_pp,aves_coms_pp_sz,aves_coms_temp,aves_coms_temp_sz))
-colnames(aves.data) &lt;- c(&quot;longitude&quot;,&quot;latitude&quot;,&quot;spp_richness&quot;,&quot;total_precipitation&quot;,&quot;precipitation_seazonality&quot;,&quot;mean_annual_temperature&quot;,&quot;temperature_seazonality&quot;)
-#Checar que no haya NAs, si los hay, eliminarlos
-aves.data.comp &lt;- na.omit(aves.data)
-#Convertir el data.frame en un objeto &quot;SpatialPointsDataFrame&quot;
-aves.sp &lt;- aves.data.comp
-coordinates(aves.sp) = ~ longitude + latitude
-crs(aves.sp) &lt;- crs_mexico
-aves.spt &lt;- spTransform(aves.sp, crs_mexico)</code></pre>
+<p>Vamos a usar los mismos datos y objetos generados que en el ejercicio anterior (GLS; Villalobos et al. 2013. Biological Conservation). Ya deben estar en su WD (i.e. cargar el “workspace” del ejercicio anterior).</p>
+<pre class="r"><code>load(&quot;~gls.RData&quot;)</code></pre>
 <div id="ols" class="section level1">
 <h1>OLS</h1>
 <p>Ajustar un modelo lineal (“global”) entre riqueza de aves endémicas y ambiente (temperatura, precipitación y sus estacionalidades)</p>
