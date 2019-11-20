@@ -152,6 +152,21 @@ ncell.mexras &lt;- ncell(mex.ras)
 #obtener las coordenadas de las celdas del raster
 mexras.coords &lt;- xyFromCell(object = mex.ras, cell = 1:ncell.mexras)
 colnames(mexras.coords) &lt;- c(&quot;Longitude(x)&quot;, &quot;Latitude(y)&quot;)</code></pre>
+<pre class="r"><code>#temperatura promedio anual
+mex.temp &lt;- raster(&quot;SAC/bio1.bil&quot;)
+#estacionalidad de temperatura
+mex.temp.sz &lt;- raster(&quot;SAC/bio4.bil&quot;)
+#precipitación total anual
+mex.pp &lt;- raster(&quot;SAC/bio12.bil&quot;)
+#estacionalidad de precipitación
+mex.pp.sz &lt;- raster(&quot;SAC/bio15.bil&quot;)
+
+crs_mexico &lt;- &quot;+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0&quot;
+#asignar un sistema de coordenadas (el mismo que el mapa de México)
+crs(mex.temp) &lt;- crs_mexico
+crs(mex.temp.sz) &lt;- crs_mexico
+crs(mex.pp) &lt;- crs_mexico
+crs(mex.pp.sz) &lt;- crs_mexico</code></pre>
 <p>Ahora podemos rasterizar el mapa de riqueza original y las variables ambientales para resolución de 1º</p>
 <pre class="r"><code>aves.geo.ras &lt;- rasterize(aves.geo, mex.ras, field=&quot;spp_rich&quot;, fun=mean)
 #Cómo se ve?
