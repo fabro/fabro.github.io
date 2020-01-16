@@ -3,14 +3,17 @@ library(phytools)
 library(phytools)
 library(picante)
 library(fossil)
-####data prep
-setwd("~/Desktop/MasterScript")
+
+######## DATA preparation #########
+
+setwd("~/Your_PATH")
 biosp<-read.csv('Biogeo_sp.csv',header=T)
 smithtree<-read.tree('ALLMBMOD.TXT')
 matriz<-create.matrix(biosp,tax.name="A_N",locality='codigo')#creates a community matrix
 comat2<-t(matriz)
 sum(comat2[1,])
-####Biodiversity measures
+
+# Calculate diversity measures
 match<-match.phylo.comm(smithtree,comat2)
 pd1<-pd(match$comm,match$phy,include.root=F)#Calculates phylogenetic Diversity
 SESMPD<-ses.mpd(match$comm,cophenetic(match$phy),null.model='taxa.label',runs=999,iterations=1000)#calculates standarized size MPD (to be transformed later to NRI)
