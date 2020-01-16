@@ -1,0 +1,806 @@
+codigo,site,country,lat,lon,biosp.biogeo
+1,1 Km al Oeste de Mordan,Dominican Republic,18.32920074,-70.91609955,Caribean
+2,"Água Branca, caatinga quartzosa",Brazil,-9.264200211,-37.90280151,Caatinga
+3,"Açu, caatinga quartzosa",Brazil,-5.624400139,-36.93939972,Caatinga
+4,Abaco,Bahamas,26.31579971,-77.00589752,Caribean
+5,AguaBlanca_Yopal,Colombia,5.502220154,-72.44760132,North southamerica
+6,Aguazula_Yopal,Colombia,5.374440193,-72.49220276,North southamerica
+7,Aipe,Colombia,3.315799952,-75.31939697,North southamerica
+8,"Aiuaba, caatinga quartzosa",Brazil,-6.669700146,-40.21080017,Caatinga
+9,Al Este de Puerto Alejandro,Dominican Republic,18.31669998,-70.99030304,Caribean
+10,Al este del poblado de Barreras,Dominican Republic,18.29310036,-70.88749695,Caribean
+11,Al Este del poblado de Canoa,Dominican Republic,18.3593998,-71.11000061,Caribean
+12,Al Noreste de Rancheria,Dominican Republic,18.37059975,-70.89389801,Caribean
+13,Al Oeste de La Guarachita,Dominican Republic,18.39030075,-70.96749878,Caribean
+14,"Al SE de Cuernavaca, desde del km 17 al 20 de la carretera MEX. 138, Jiutepec-Yautepec de Zaragoza.",Mexico,18.84970093,-99.12670135,Mesoamerica
+15,"Alegria, floresta semidecidual",Brazil,-27.82250023,-54.0821991,Misiones
+16,Algarrobo,Colombia,10.27219963,-74.09420013,North southamerica
+17,Aliji�n,Argentina,-28.18939972,-65.47250366,Piedmont
+18,Alijil�n,Argentina,-28.17919922,-65.52819824,Piedmont
+19,"Alto Paraguai, floresta ripícola",Brazil,-17.84830093,-57.40390015,Central Brazil
+20,Altos,Argentina,-28.0564003,-65.6108017,Piedmont
+21,Amambay,Paraguay,-22.35000038,-56.25,Central Brazil
+22,Amana Abajo,Venezuela,9.640000343,-69.16999817,North southamerica
+23,Ambalema,Colombia,4.730140209,-74.8207016,North southamerica
+24,Ambalema2,Colombia,4.798220158,-74.771698,North southamerica
+25,"Anastácio, cerradão mesotrófico",Brazil,-19.19219971,-57.58810043,Central Brazil
+26,"Anastácio, floresta ripícola",Brazil,-20.77860069,-56.75109863,Central Brazil
+27,"Andorinha, floresta areno-rupícola",Brazil,-10.13939953,-39.83000183,Caatinga
+28,"Angüera, mata decidual do Agreste",Brazil,-12.16250038,-39.18579865,Caatinga
+29,ANGOLO,Peru,-4.5,-80.16699982,South Pacific
+30,Anse Chastanet,Saint Lucia,13.85910034,-61.06480026,Caribean
+31,Anse La Chaloupe,Saint Lucia,13.95860004,-60.87939835,Caribean
+32,APURIMAC,Peru,-13.33300018,-73.33300018,South Pacific
+33,Apurimac 1,Peru,-13.30118942,-73.66963959,South Pacific
+34,Apurimac 2,Peru,-13.45344353,-73.1974411,South Pacific
+35,Apurimac valley,Peru,-13.69190025,-72.91539764,South Pacific
+36,"Aquidauana, Camisão, cerradão mesotrófico",Brazil,-18.01469994,-56.51029968,Central Brazil
+37,"Araçuaí, caatinga arbórea",Brazil,-16.90609932,-42.10720062,Caatinga
+38,"Araguari, floresta decidual",Brazil,-18.63419914,-48.08890152,Central Brazil
+39,"Arapiraca, floresta decidual do Agreste",Brazil,-9.711700439,-36.65219879,Caatinga
+40,"Araporã, floresta decidual",Brazil,-18.51860046,-49.06280136,Central Brazil
+41,"Araputanga, floresta ripícola",Brazil,-16.3125,-56.53639984,Central Brazil
+42,"Araripe, floresta decidual de brejo",Brazil,-7.238100052,-39.97610092,Caatinga
+43,"Arcos e Pains, floresta decidual",Brazil,-20.32920074,-45.57970047,Central Brazil
+44,"Arcoverde, caatinga quartzosa",Brazil,-8.281399727,-37.04970169,Caatinga
+45,�rea Natural de Manejo Integrado Madidi,Bolivia,-14.46529961,-68.54250336,Piedmont
+46,�rea Protegida Departamental Monumento Natural Espejillos,Bolivia,-17.88419914,-63.42969894,Piedmont
+47,"Areia Branca, caatinga costeira",Brazil,-5.054999828,-37.07310104,Caatinga
+48,"Arenápolis, floresta ripícola",Brazil,-17.19330025,-56.92470169,Central Brazil
+49,"Arenales de Guanacos, chaco",Bolivia,-18.93000031,-63.20000076,Piedmont
+50,Arroyotabaco,Colombia,11.11170006,-72.56359863,North southamerica
+51,"Assis Chateaubriand, floresta semidecidual",Brazil,-24.40439987,-53.52640152,Misiones
+52,"Asunci�n, bosque seco",Paraguay,-25.25,-57.56999969,Misiones
+53,"Baía das Garças, cerradão mesotrófico",Brazil,-19.54809952,-55.60309982,Central Brazil
+54,Babonneau,Saint Lucia,14.05189991,-60.94900131,Caribean
+55,BajoCauca,Colombia,5.703110218,-75.60350037,North southamerica
+56,Bajos del Furrial,Venezuela,9.699999809,-69.41000366,North southamerica
+57,"Baldim, floresta decidual",Brazil,-19.27330017,-43.84080124,Central Brazil
+58,Balsas 1 & 2,Peru,-6.855370045,-78.05870056,South Pacific
+59,Balsas 3 & 4,Peru,-6.839719772,-77.99120331,South Pacific
+60,"Bandeirantes, cerradão mesotrófico",Brazil,-19.10750008,-57.64139938,Central Brazil
+61,"Bandeirantes, cerradão mesotrófico",Brazil,-19.1079998,-57.64099884,Central Brazil
+62,"Baraúna, caatinga costeira",Brazil,-5.074200153,-37.59780121,Caatinga
+63,"Barbalha, floresta decidual de brejo",Brazil,-7.376699924,-39.31330109,Caatinga
+64,"Barra de Farias, caatinga quartzosa",Brazil,-8.150600433,-36.29970169,Caatinga
+65,"Barra de São Miguel, caatinga quartzosa",Brazil,-7.740300179,-36.39580154,Caatinga
+66,"Barra do Corda, floresta arenícola",Brazil,-5.543600082,-45.2983017,Central Brazil
+67,"Barra, caatinga arenícola",Brazil,-11.10830021,-42.98970032,Caatinga
+68,Barrancas,Colombia,11.01830006,-72.65779877,North southamerica
+69,Barro Negro,Argentina,-24.36170006,-64.9661026,Piedmont
+70,"Baturité, Mulungu, floresta decidual de brejo",Brazil,-4.286399841,-38.99359894,Caatinga
+71,"Baturité, Salva-Vidas, caatinga quartzosa",Brazil,-4.252200127,-38.98389816,Caatinga
+72,BCORTESN,Costa Rica,10.41699982,-85.33300018,North southamerica
+73,BCORTESS,Costa Rica,10.39999962,-85.33300018,North southamerica
+74,"Bela Vista, cerradão mesotrófico",Brazil,-19.49749947,-56.17169952,Central Brazil
+75,"Bela Vista, floresta decidual",Brazil,-17.8321991,-57.66609955,Central Brazil
+76,Belalcazar,Colombia,4.940750122,-75.84290314,North southamerica
+77,Bellue Vue,Saint Lucia,13.80080032,-60.96699905,Caribean
+78,Beltran,Colombia,4.641890049,-74.75910187,North southamerica
+79,"Berilo, caatinga arbórea",Brazil,-16.97610092,-42.48889923,Caatinga
+80,Besotes,Colombia,10.52700043,-73.29499817,North southamerica
+81,"Betânia, caatinga quartzosa",Brazil,-8.289699554,-38.17060089,Caatinga
+82,BLOHMR,Venezuela,8.567000389,-67.58300018,North southamerica
+83,"Bloque Jun�n de la Faja Petrol�fera del Orinoco, Municipio Santa Mar�a de Ipire y Jos� Gregorio Monagas",Venezuela,7.921110153,-64.97329712,North southamerica
+84,"Boa Esperança do Iguaçu, floresta semidecidual",Brazil,-25.59690094,-53.24919891,Misiones
+85,"Bocaiúva, floresta decidual",Brazil,-17.07360077,-43.76720047,Caatinga
+86,BOCAPAN,Peru,-3.716660023,-80.69999695,South Pacific
+87,"Bodoquena, Rio Salobra, floresta ripícola",Brazil,-21.45079994,-56.50360107,Central Brazil
+88,"Bodoquena, Rio Salobrinha, floresta ripícola",Brazil,-21.28779984,-56.69639969,Central Brazil
+89,BolivarValle,Colombia,4.338870049,-76.19000244,North southamerica
+90,"Bom Jesus da Lapa,  caatinga carbonática",Brazil,-13.10690022,-43.17559814,Caatinga
+91,"Bom Jesus da Lapa, caatinga arbórea",Brazil,-13.11670017,-43.32419968,Caatinga
+92,"Bom Jesus de Goiás, floresta decidual",Brazil,-15.92580032,-50.08280182,Central Brazil
+93,BOMBA,Colombia,10.35000038,-75.56700134,North southamerica
+94,"Bonito, cerradão mesotrófico",Brazil,-19.02669907,-57.68420029,Central Brazil
+95,"Bonito, cerradão mesotrófico",Brazil,-19.02700043,-57.68399811,Central Brazil
+96,"Boqueirão, caatinga quartzosa",Brazil,-7.54309988,-36.18690109,Caatinga
+97,Bosconia,Colombia,10.09060001,-73.91169739,North southamerica
+98,Bosque de la Estacion Experimental Forestal Guisa,Cuba,20.24749947,-76.51190186,Caribean
+99,BOSQUE EL AG�IL,Colombia,8.315560341,-73.62779999,North southamerica
+100,"Bosque Universitario El Caimital, Mun. Aut�nomo Obispos, ca. Barrancas y Obispos",Venezuela,8.666669846,-70.21669769,North southamerica
+101,"Bosque Universitario El Caimital, Mun. Obispos",Venezuela,8.705249786,-70.06719971,North southamerica
+102,"Bossoroca, floresta semidecidual",Brazil,-28.73670006,-55.15219879,Misiones
+103,Botella,Cuba,21.89439964,-84.4332962,Caribean
+104,"Brasília, FERCAL, floresta decidual",Brazil,-15.55970001,-48.05170059,Central Brazil
+105,"Brecha Mini, chaco",Bolivia,-19.67000008,-62.91999817,Piedmont
+106,BREMEN,Colombia,5.083300114,-74.75,North southamerica
+107,BREMEN,Colombia,5.083300114,-74.76699829,North southamerica
+108,"Brotas de Macaúbas, floresta areno-rupícola",Brazil,-12.19919968,-42.38579941,Caatinga
+109,"Brumado, caatinga alcalina",Brazil,-14.19390011,-41.5155983,Caatinga
+110,BS01,Paraguay,-25.63299942,-54.66699982,Misiones
+111,BS07,Paraguay,-25.36700058,-54.95000076,Misiones
+112,BS10,Paraguay,-24.54999924,-54.95000076,Misiones
+113,BS4C,Paraguay,-25.86700058,-54.86700058,Misiones
+114,"Buíque, Brejo, floresta decidual arenícola",Brazil,-8.596400261,-37.2181015,Caatinga
+115,"Buíque, caatinga arenícola",Brazil,-8.393099785,-37.37440109,Caatinga
+116,"Buíque, nanofloresta decidual areno-rupícola",Brazil,-8.562199593,-37.26190186,Caatinga
+117,"Buritizeiro, floresta decidual",Brazil,-17.26469994,-44.94029999,Central Brazil
+118,Caacup�,Paraguay,-25.19000053,-57.02999878,Misiones
+119,"Caarapó, floresta semidecidual",Brazil,-22.43190002,-55.66749954,Central Brazil
+120,"Cabaceiras, caatinga quartzosa",Brazil,-7.328299999,-36.28030014,Caatinga
+121,Cabo Corriente,Cuba,21.79500008,-84.48280334,Caribean
+122,CABOINGA,Peru,-3.966670036,-80.38330078,South Pacific
+123,CABUYO,Costa Rica,10.5,-85.36699677,North southamerica
+124,Cachira,Colombia,7.675220013,-73.12210083,North southamerica
+125,"Cacimba de Dentro, caatinga quartzosa",Brazil,-6.67689991,-35.75389862,Caatinga
+126,"Cafuringa, floresta ripícola",Brazil,-15.50469971,-48.16690063,Central Brazil
+127,"Caibi, floresta semidecidual",Brazil,-26.99749947,-53.2358017,Misiones
+128,"Caimital, Distrito Obispos",Venezuela,8.650279999,-70.07080078,North southamerica
+129,Cali,Colombia,3.377490044,-76.57209778,North southamerica
+130,"Camapuã, cerradão distrófico",Brazil,-19.94779968,-56.33969879,Central Brazil
+131,"Camapuã, Rio Coxim, floresta ripícola",Brazil,-21.16360092,-56.43330002,Central Brazil
+132,Cambalache (ca.),Venezuela,8.319999695,-62.78609848,North southamerica
+133,Cambar�,Bolivia,-22.14999962,-64.41670227,Piedmont
+134,"Camiri, chaco",Bolivia,-20.54999924,-63.22999954,Piedmont
+135,"Campina Grande, caatinga quartzosa",Brazil,-7.284999847,-35.97639847,Caatinga
+136,"Campina Grande, floresta decidual de brejo",Brazil,-7.153600216,-35.87360001,Caatinga
+137,"Campo Alegre de Lurdes, caatinga arenícola",Brazil,-9.402799606,-43.21310043,Caatinga
+138,"Campo Formoso, floresta decidual rupícola",Brazil,-10.55720043,-40.42169952,Caatinga
+139,"Campo Grande do Piauí, caatinga arenícola",Brazil,-7.070000172,-40.95190048,Caatinga
+140,"Campo Maior, nanofloresta aluvional",Brazil,-4.713600159,-42.22779846,Central Brazil
+141,"Campo Maior, nanofloresta arenícola",Brazil,-4.876699924,-42.0625,Central Brazil
+142,Campoalegre,Colombia,2.660860062,-75.30879974,North southamerica
+143,Canalete,Colombia,8.862970352,-76.29769897,North southamerica
+144,"Canindé do São Francisco, caatinga arenícola",Brazil,-9.646699905,-37.74250031,Caatinga
+145,"Canudos, caatinga arenícola",Brazil,-9.936900139,-39.05939865,Caatinga
+146,Cap Estate,Saint Lucia,14.09959984,-60.93330002,Caribean
+147,"Capistrano, caatinga quartzosa",Brazil,-4.466700077,-38.71530151,Caatinga
+148,"Capitão Enéas, caatinga arbórea",Brazil,-16.1508007,-43.71969986,Caatinga
+149,"Capitão Leônidas Marques, floresta semidecidual",Brazil,-25.52939987,-53.53310013,Misiones
+150,Carabelita,Cuba,21.95140076,-84.62779999,Caribean
+151,"Caracas, Bello Monte",Venezuela,10.48330021,-66.55000305,North southamerica
+152,"Caracas, Cementerio del Este",Venezuela,10.44999981,-66.8167038,North southamerica
+153,"Caracas, Jard�n Bot�nico",Venezuela,10.5,-66.90000153,North southamerica
+154,"Caracas, Montalb�n-El Pinar",Venezuela,10.4666996,-66.96669769,North southamerica
+155,"Caracas, Santa F� - -Santa In�s-Guairita",Venezuela,10.4666996,-66.86669922,North southamerica
+156,"Caracol, floresta decidual",Brazil,-17.92779922,-57.54779816,Central Brazil
+157,"Cardeal Mota, floresta decidual",Brazil,-19.30809975,-43.6169014,Central Brazil
+158,"Carinhanha, caatinga arbórea",Brazil,-14.16390038,-43.84560013,Caatinga
+159,CarmendeBolivar,Colombia,9.717889786,-75.04429626,North southamerica
+160,"Carnaubais, caatinga costeira",Brazil,-5.303899765,-36.97890091,Caatinga
+161,"Caruaru, caatinga quartzosa",Brazil,-8.297499657,-36.07220078,Caatinga
+162,"Carvori a Tupantuba, floresta semidecidual",Brazil,-28.94219971,-54.87939835,Misiones
+163,"Casa Nova, caatinga arenícola",Brazil,-9.347800255,-41.65779877,Caatinga
+164,Caser�o La Laguna,Venezuela,9.640000343,-69.51999664,North southamerica
+165,Catauro,Cuba,21.8689003,-84.93920135,Caribean
+166,"Caturama, caatinga arbórea",Brazil,-13.24499989,-42.20890045,Caatinga
+167,"Caturité, caatinga quartzosa",Brazil,-7.446899891,-35.99639893,Caatinga
+168,"Cavernas do Peruaçu, caatinga arbórea",Brazil,-15.12609959,-44.23889923,Caatinga
+169,Central section of the watershed of Tuy river,Venezuela,10.26669979,-66.84999847,North southamerica
+170,Cerrejon,Colombia,11.17000008,-72.6230011,North southamerica
+171,Cerro Antena-Macizo Acahay,Paraguay,-25.53000069,-57.11000061,Misiones
+172,Cerro Koi,Paraguay,-25.19000053,-57.24000168,Misiones
+173,"Cerro La Gruta, San Sebasti�n",Venezuela,9.958889961,-67.17559814,North southamerica
+174,Cerro Lambar�,Paraguay,-25.20000076,-57.38000107,Misiones
+175,"Cerro Largo, floresta semidecidual",Brazil,-28.12750053,-54.73559952,Misiones
+176,"Cerro Loro, Distrito Bruzual",Venezuela,10.11970043,-68.44999695,North southamerica
+177,Cerro Mbatobi,Paraguay,-25.25,-57.06000137,Misiones
+178,Cerro Per�,Paraguay,-25.54000092,-56.09000015,Misiones
+179,"Cerro San Nicol�s, ca. de 35.5 km al NE del mpio.  de  Coyuca de Ben�tez.",Mexico,17.1753006,-99.80470276,Mesoamerica
+180,Cerro saramb�,Paraguay,-22.45000076,-56.09000015,Central Brazil
+181,CerrodeChocoa,Colombia,6.90196991,-73.17990112,North southamerica
+182,CerrodelaVirgen,Colombia,5.34732008,-72.41919708,North southamerica
+183,Chanchamayo,Peru,-11.05519962,-75.21140289,South Pacific
+184,"Chapada da Contagem, floresta decidual",Brazil,-15.57689953,-47.88940048,Central Brazil
+185,Chaparral,Colombia,3.813139915,-75.39160156,North southamerica
+186,CHAPARRI2,Peru,-6.510000229,-79.44999695,South Pacific
+187,Chaparrito,Venezuela,8.199999809,-69.1832962,North southamerica
+188,CHAQUIMA,Bolivia,-14.56700039,-68.46700287,Piedmont
+189,Chinacota,Colombia,7.604990005,-72.6210022,North southamerica
+190,CHULUCAN,Peru,-5.083000183,-80.16699982,South Pacific
+191,"Chuquisaca, bosque andino",Bolivia,-20.46999931,-63.91999817,Piedmont
+192,Ciceron,Saint Lucia,14.00290012,-61.01240158,Caribean
+193,Cienaga,Colombia,11.07260036,-74.20890045,North southamerica
+194,CIENAGA DEL CONVENTO,Colombia,10.63360023,-74.91690063,North southamerica
+195,Ciudad del Este,Paraguay,-25.36000061,-54.59999847,Misiones
+196,"Cocal, nanofloresta arenícola",Brazil,-3.428900003,-41.50780106,Central Brazil
+197,"Cocalzinho de Goias, cerrado rupicola",Brazil,-15.82400036,-48.70700073,Central Brazil
+198,"Cocos, caatinga arbórea",Brazil,-14.27250004,-44.71170044,Caatinga
+199,"COLOMBIA, Atl�ntico, Pioj�. Hace parte del complejo monta�oso El Palomar � Sierra de �guila.",Colombia,10.63689995,-75.2161026,North southamerica
+200,"COLOMBIA, Atl�ntico, Usiacur�. Microcuenca del arroyo Luriza. Bosque de Galeria, borde de ca�ada, entrada por Techos azules.",Colombia,10.75279999,-75.01999664,North southamerica
+201,"Colombia: Cundinamarca, Nilo, Piscilago. Vereda La Esperanza",Colombia,4.215829849,-74.68080139,North southamerica
+202,colonia Baranda,Argentina,-27.48360062,-59.29169846,Misiones
+203,Colonia Benitez,Argentina,-27.33329964,-58.93330002,Misiones
+204,Colonia Presidente Yrigoyen,Argentina,-26.32699966,-56.77640152,Misiones
+205,Colonia Presidente Yrigoyen,Argentina,-26.27050018,-58.8103981,Misiones
+206,COLORADO,Colombia,9.967000008,-75.16699982,North southamerica
+207,Colorados,Colombia,9.93599987,-75.10900116,North southamerica
+208,COLOSOI,Colombia,9.5,-75.80000305,North southamerica
+209,Comunidad de Azariamas - �rea Natural de Manejo Integrado Madidi,Bolivia,-14.33110046,-68.00559998,Piedmont
+210,"Contendas do Sincorá, caatinga alcalina",Brazil,-13.7638998,-41.00780106,Caatinga
+211,Convencion,Colombia,8.434720039,-73.32029724,North southamerica
+212,"Corguinho, floresta ripícola",Brazil,-21.41329956,-56.36640167,Central Brazil
+213,"Coribe, caatinga arbórea",Brazil,-13.9357996,-44.42720032,Caatinga
+214,"Correntina, caatinga arbórea",Brazil,-13.69439983,-44.36809921,Caatinga
+215,"Corumbá, Morraria Sul, floresta decidual",Brazil,-21.46859932,-55.14780045,Central Brazil
+216,COSIGUIN,Nicaragua,12.89999962,-87.53299713,North southamerica
+217,"Coxim, cerrado",Brazil,-20.43860054,-55.64640045,Central Brazil
+218,"Coxipó da Ponte, floresta ripícola",Brazil,-16.50749969,-56.37670135,Central Brazil
+219,Coyaima,Colombia,3.766469955,-75.25289917,North southamerica
+220,Coyaima2,Colombia,3.800029993,-75.18180084,North southamerica
+221,"Crato, floresta decidual de brejo",Brazil,-7.239699841,-39.4844017,Caatinga
+222,"Cristópolis, caatinga arbórea",Brazil,-12.21689987,-44.41329956,Caatinga
+223,"Cristalina, cerrado",Brazil,-14.06389999,-46.48749924,Central Brazil
+224,"Cristalina, cerrado",Brazil,-14.06400013,-46.48500061,Central Brazil
+225,"Cruzeiro dos Peixotos, floresta decidual",Brazil,-18.66860008,-48.39609909,Central Brazil
+226,"Cuenca alta del r�o Aragua, Municipio Piar",Venezuela,10.01640034,-63.5442009,North southamerica
+227,Cuenca del r�o Tebicuary-mi,Paraguay,-26.34000015,-56.27999878,Misiones
+228,"Cuenca media, R�o Socuy, Municipio Mara",Venezuela,10.93999958,-72.2181015,North southamerica
+229,Cumba,Peru,-5.550000191,-78.38999939,South Pacific
+230,Cunday,Colombia,4.055029869,-74.69429779,North southamerica
+231,Curundu,Panama,8.983329773,-79.55000305,North southamerica
+232,CURUYUQU,Bolivia,-18.7670002,-62.23300171,Piedmont
+233,"Curuyuqui, chaco",Bolivia,-21.20000076,-63.68000031,Piedmont
+234,"Custódia, caatinga quartzosa",Brazil,-8.055299759,-37.65530014,Caatinga
+235,Dagua,Colombia,3.736779928,-76.69100189,North southamerica
+236,Delgadito Creek,Venezuela,8.815279961,-69.4957962,North southamerica
+237,Depresion central de Chiapas,Mexico,16.11219978,-92.68830109,Mesoamerica
+238,"Depresi�n Central de Chiapas: Mpio. Suchiapa: Suchiapa, 15 km al SO de Suchiapa a lo largo del camino a Villa Flores, ca��n.",Mexico,16.79999924,-93.11669922,Mesoamerica
+239,"Derrubadas, Parque do Turvo, floresta semidecidual",Brazil,-27.22719955,-53.88190079,Misiones
+240,Deseado,Argentina,-25.88500023,-54.16730118,Misiones
+241,"Diamantino, floresta ripícola",Brazil,-16.76600075,-56.32600021,Central Brazil
+242,"Diamantino, floresta ripícola",Brazil,-16.76639938,-56.3260994,Central Brazil
+243,"Dois Irmãos do Buriti, cerradão distrófico",Brazil,-20.16110039,-56.14279938,Central Brazil
+244,"Dois Irmãos do Buriti, cerradão mesotrófico",Brazil,-18.60110092,-56.39250183,Central Brazil
+245,Dom4 (Goiás),Brazil,-13.57269955,-46.72510147,Central Brazil
+246,DonDiego,Colombia,11.25090027,-73.66239929,North southamerica
+247,"Doresópolis, floresta decidual",Brazil,-20.27109909,-45.97029877,Central Brazil
+248,Dovio,Colombia,4.568970203,-76.2806015,North southamerica
+249,Dovio2,Colombia,4.49311018,-76.34970093,North southamerica
+250,El Alcazar,Colombia,3.206059933,-76.59339905,North southamerica
+251,El Angolo,Peru,-4.166669846,-80.66670227,South Pacific
+252,"El Cogollal, Distrito Acosta",Venezuela,10.91919994,-68.82579803,North southamerica
+253,El galp�n,Argentina,-25.38529968,-64.77529907,Piedmont
+254,El Playon,Colombia,7.454390049,-73.20010376,North southamerica
+255,El Rey 1,Argentina,-24.66279984,-64.40339661,Piedmont
+256,El Rey 2,Argentina,-24.72290039,-64.38839722,Piedmont
+257,El Soberbio,Argentina,-27.27000046,-54.11000061,Misiones
+258,ELCHECO,Peru,-4.262139797,-80.49510193,South Pacific
+259,Eleuthera1,Bahamas,25.38290024,-76.53630066,Caribean
+260,Eleuthera2,Bahamas,24.91620064,-76.165802,Caribean
+261,"Eliseu Martins, floresta arenícola",Brazil,-8.168100357,-43.68330002,Caatinga
+262,ELSAUCE,Peru,-3.832999945,-80.46700287,South Pacific
+263,"En Bas Saut trail, Edmond Forest",Saint Lucia,13.8465004,-61.00740051,Caribean
+264,En peque�os manchones de las barrancas de los alrededores del Mpio. de Culiac�n,Mexico,24.80389977,-107.3860016,Mesoamerica
+265,"Entre las poblaciones de El Sam�n y Mantecal, en la Zona del Hato el Fr�o",Venezuela,7.833330154,-69,North southamerica
+266,"Entre los Mpios. de Alm�cigos y Agua Blanca,  ca. 6.54 km de l Mpio. Agua Blanca.",Mexico,19.0897007,-104.0960007,Mesoamerica
+267,"Espinosa, caatinga alcalina",Brazil,-14.94810009,-42.83250046,Caatinga
+268,Estaci�n Biol�gica de los Llanos,Venezuela,8.850000381,-67.38330078,North southamerica
+269,"Euclides da Cunha, caatinga quartzosa",Brazil,-10.41170025,-39.18780136,Caatinga
+270,Fazenda São José (São Domingos),Brazil,-13.81760025,-46.68330002,Central Brazil
+271,Fazenda São Vicente (São Domingos),Brazil,-13.51990032,-46.65719986,Central Brazil
+272,"Fecho dos Morros, floresta decidual chaquenha",Brazil,-21.44919968,-57.91389847,Central Brazil
+273,"Fecho dos Morros, floresta estacional inundável",Brazil,-21.49810028,-57.88359833,Central Brazil
+274,"Feira da Mata, caatinga arbórea",Brazil,-14.21140003,-44.20940018,Caatinga
+275,"Feira de Santana, mata decidual do Agreste",Brazil,-12.31610012,-38.96720123,Caatinga
+276,"Fica Faca, floresta decidual",Brazil,-14.44110012,-52.67169952,Central Brazil
+277,Filadelfia,Colombia,5.313149929,-75.65229797,North southamerica
+278,Finca San Pedro,Venezuela,9.239999771,-69.33000183,North southamerica
+279,Flor de oro,Argentina,-28.90509987,-59.65259933,Misiones
+280,"Floresta, caatinga quartzosa",Brazil,-8.570300102,-38.53720093,Caatinga
+281,"Formosa do Rio Preto, caatinga arbórea",Brazil,-11.21829987,-45.40280151,Caatinga
+282,"Formoso do Araguaia, cerradão saturável",Brazil,-12.96860027,-48.49110031,Central Brazil
+283,Fort�n Chaj�,Argentina,-27.10770035,-59.77700043,Misiones
+284,"Fort�n Gabino Mendoza, chaco",Paraguay,-20.04999924,-61.90000153,Piedmont
+285,"Foz do Iguaçu, floresta semidecidual",Brazil,-25.62669945,-54.42810059,Misiones
+286,"Francisco Sá, caatinga arbórea",Brazil,-16.44689941,-43.47029877,Caatinga
+287,"Frederico Westphalen, floresta semidecidual",Brazil,-27.36639977,-53.34719849,Misiones
+288,"Frei Paulo, caatinga quartzosa",Brazil,-10.54469967,-37.50030136,Caatinga
+289,Freile Pintado,Argentina,-23.96689987,-64.9068985,Piedmont
+290,Fundo El Esfuerzo,Venezuela,8.319999695,-69.66000366,North southamerica
+291,Fundo La Yunta,Venezuela,9.319999695,-69.38999939,North southamerica
+292,Fundo Mata Larga,Venezuela,8.149999619,-69.19999695,North southamerica
+293,GALERAZ,Colombia,10.80000019,-75.25,North southamerica
+294,"Gasoducto en Tucavaca, bosque seco",Bolivia,-18.52000046,-60.81999969,Piedmont
+295,"Gentio do Ouro, floresta areno-rupícola",Brazil,-11.36279964,-42.36059952,Caatinga
+296,"German Busch, mata seca",Bolivia,-17.89999962,-59.25,Central Brazil
+297,Girardot,Colombia,4.307740211,-74.85079956,North southamerica
+298,Giron,Colombia,7.119239807,-73.15529633,North southamerica
+299,"Giruá, floresta semidecidual",Brazil,-28.02249908,-54.29249954,Misiones
+300,"Glória, caatinga arenícola",Brazil,-9.343299866,-38.42440033,Caatinga
+301,GotaDeAgua,Peru,-5.409999847,-78.45999908,South Pacific
+302,Grande Anse Estate,Saint Lucia,14.00279999,-60.90629959,Caribean
+303,Gros Piton,Saint Lucia,13.80959988,-61.06990051,Caribean
+304,"Gruta de Maquiné, floresta decidual",Brazil,-19.12280083,-44.35189819,Central Brazil
+305,"Guaíra, floresta semidecidual",Brazil,-24.09110069,-54.27890015,Misiones
+306,GuacochitoCesar,Colombia,10.55869961,-73.15370178,North southamerica
+307,Guadalupe Norte,Argentina,-28.92480087,-59.60020065,Misiones
+308,Gualeguaych�,Argentina,-32.91999817,-58.18999863,Misiones
+309,"Guanambi, caatinga alcalina",Brazil,-14.27810001,-42.83420181,Caatinga
+310,GUANGF,Costa Rica,10.5,-85.16699982,North southamerica
+311,GUANICA,Puerto Rico,17.95000076,-66.86669922,Caribean
+312,GUANUP,Costa Rica,10.53299999,-85.30000305,North southamerica
+313,Guataqui,Colombia,4.545159817,-74.78959656,North southamerica
+314,"Guia Lopes da Laguna, cerradão mesotrófico",Brazil,-19.02969933,-57.44189835,Central Brazil
+315,"Hacienda Veracruz, Distrito Perij�",Venezuela,9.904999733,-72.35220337,North southamerica
+316,Hatibonico,Cuba,19.91930008,-75.32189941,Caribean
+317,Hato La Pastora,Venezuela,7.933330059,-68.69999695,North southamerica
+318,Hato La Pastora II,Venezuela,7.949999809,-68.63330078,North southamerica
+319,"Hato Mi Querencia, San Jos� de Guaribe",Venezuela,9.678890228,-66.01499939,North southamerica
+320,Hellshire Hills,Jamaica,17.87929916,-76.95739746,Caribean
+321,HIGUERON,Costa Rica,10.30000019,-85.13300323,North southamerica
+322,Honda,Colombia,5.160600185,-74.79360199,North southamerica
+323,Hondo,Colombia,3.520499945,-76.52130127,North southamerica
+324,"Horizontina, floresta semidecidual",Brazil,-27.58639908,-54.30860138,Misiones
+325,HUANCABA,Peru,-5.25,-79.38300323,South Pacific
+326,Huron,Colombia,5.526909828,-72.36470032,North southamerica
+327,"Iaçu, caatinga quartzosa",Brazil,-12.79920006,-40.19079971,Caatinga
+328,"Ibiaí, Pacuí, floresta decidual",Brazil,-16.7866993,-44.96469879,Central Brazil
+329,"Ibimirim, caatinga arenícola",Brazil,-8.602199554,-37.6128006,Caatinga
+330,"Ibiraba, caatinga arenícola",Brazil,-10.78170013,-42.88470078,Caatinga
+331,"Ibotirama, caatinga arbórea",Brazil,-12.10389996,-43.22779846,Caatinga
+332,Iguazu,Argentina,-25.84000015,-54.31999969,Misiones
+333,Igu�z Creek,Venezuela,8.855830193,-69.2071991,North southamerica
+334,"Ijuí, floresta semidecidual",Brazil,-28.25830078,-53.87110138,Misiones
+335,ILLESCAS,Peru,-5.983329773,-80.6832962,South Pacific
+336,"Inhamuns, caatinga quartzosa",Brazil,-5.866700172,-39.84999847,Caatinga
+337,"Ipirá, mata decidual do Agreste",Brazil,-12.15060043,-39.6935997,Caatinga
+338,"Iraquara, caatinga carbonática",Brazil,-12.31000042,-41.50360107,Caatinga
+339,"Irecê, caatinga carbonática",Brazil,-11.25220013,-41.91030121,Caatinga
+340,"Isla de Margarita, sector Este",Venezuela,11,-63,North southamerica
+341,"Itaberaba, mata decidual do Agreste",Brazil,-12.48029995,-40.36750031,Caatinga
+342,"Itacarambi, caatinga arbórea",Brazil,-15.04940033,-44.06140137,Caatinga
+343,"Itaobim, caatinga arbórea",Brazil,-16.53170013,-41.56219864,Caatinga
+344,"Itapiranga, floresta semidecidual",Brazil,-27.19000053,-53.63000107,Misiones
+345,"Itatim, caatinga quartzosa",Brazil,-12.74499989,-39.71110153,Caatinga
+346,"Itiúba, caatinga arenícola",Brazil,-10.6935997,-39.99919891,Caatinga
+347,"Itinga, caatinga arbórea",Brazil,-16.6093998,-41.81560135,Caatinga
+348,"Ituiutaba, floresta decidual",Brazil,-19.08279991,-49.40859985,Central Brazil
+349,"Izozog, chaco",Bolivia,-19.07999992,-62.41999817,Piedmont
+350,"Jaíba, Reserva Ecológica, caatinga arbórea",Brazil,-15.06750011,-43.76060104,Caatinga
+351,"Jaíba, Serra Azul, caatinga arbórea",Brazil,-15.36830044,-44.02809906,Caatinga
+352,"Jaborandi, caatinga carbonática",Brazil,-13.61170006,-44.43939972,Caatinga
+353,"Jacobina, nanofloresta decidual rupícola",Brazil,-11.17000008,-40.49530029,Caatinga
+354,"Jaguarari, floresta areno-rupícola",Brazil,-10.1857996,-40.25920105,Caatinga
+355,Jamundi2,Colombia,3.161250114,-76.54329681,North southamerica
+356,"Janaúba, caatinga arbórea",Brazil,-15.75889969,-43.66939926,Caatinga
+357,"Januária, Brejo do Amparo, caatinga arbórea",Brazil,-15.44579983,-44.40940094,Caatinga
+358,"Jaraguari, cerradão mesotrófico",Brazil,-19.17420006,-57.62810135,Central Brazil
+359,"Jaraguari, cerradão mesotrófico",Brazil,-19.20499992,-57.60900116,Central Brazil
+360,"Jataí, cerrado",Brazil,-13.6736002,-46.71889877,Central Brazil
+361,"Jataí, cerrado",Brazil,-13.68350029,-46.73270035,Central Brazil
+362,"Jataúba, floresta decidual de brejo",Brazil,-8.1583004,-36.65779877,Caatinga
+363,"Jenipapo de Minas, caatinga arbórea",Brazil,-17.12170029,-42.2071991,Caatinga
+364,"Jequitaí, floresta decidual",Brazil,-17.15609932,-44.62810135,Central Brazil
+365,"Jeremoabo, caatinga arenícola",Brazil,-10.14719963,-38.34249878,Caatinga
+366,Juan de Acosta,Colombia,10.82919979,-75.03130341,North southamerica
+367,"Juazeiro, caatinga arenícola",Brazil,-9.364199638,-40.27360153,Caatinga
+368,"Jucurutu, caatinga quartzosa",Brazil,-6.054699898,-37.03139877,Caatinga
+369,"Juramento, floresta decidual",Brazil,-16.77499962,-43.66360092,Caatinga
+370,"Juvenília, caatinga arbórea",Brazil,-14.28530025,-44.11109924,Caatinga
+371,La Bourne -  Mount Gayak,Saint Lucia,14.05389977,-60.8987999,Caribean
+372,La gallareta,Argentina,-29.57180023,-60.35580063,Misiones
+373,La Merced Caldas,Colombia,5.443190098,-75.55010223,North southamerica
+374,La Paz,Colombia,10.39080048,-73.10019684,North southamerica
+375,La Ronda,Argentina,-24.07909966,-64.22540283,Piedmont
+376,LAFLOR,Nicaragua,11.13300037,-85.78299713,North southamerica
+377,"Lagoa da Confusão, cerradão saturável",Brazil,-12.57359982,-46.39889908,Central Brazil
+378,"Lagoa da Confusão, floresta de várzea",Brazil,-8.676699638,-48.39139938,Central Brazil
+379,"Lagoa da Tartaruga, floresta de várzea",Brazil,-6.028100014,-47.86780167,Central Brazil
+380,"Lagoa Misteriosa, cerradão mesotrófico",Brazil,-19.43280029,-57.06579971,Central Brazil
+381,"Lagoa Santa, Lapinha, floresta decidual",Brazil,-19.55999947,-43.95970154,Central Brazil
+382,Lagunitas,Colombia,10.74890041,-73.11109924,North southamerica
+383,LAJAS,Costa Rica,10.28299999,-85.08300018,North southamerica
+384,"Lajeado do Bugre, floresta semidecidual",Brazil,-27.6508007,-53.25310135,Misiones
+385,LALAGUNA,Mexico,22.83300018,-109.1669998,Mesoamerica
+386,LAMENTA,Peru,-4.730000019,-80.08000183,South Pacific
+387,"Las Trancas, mata seca",Bolivia,-16.53000069,-61.84999847,Piedmont
+388,"Lassance, floresta decidual",Brazil,-17.94389915,-44.68360138,Central Brazil
+389,Lebrija,Colombia,7.245399952,-73.23999786,North southamerica
+390,"Limoncito, bosque seco",Bolivia,-18.25,-59.93000031,Piedmont
+391,Little Tobago,Trinidad and Tobago,11.30000019,-60.5,Caribean
+392,"Livramento do Brumado, nanofloresta decidual rupícola",Brazil,-13.58329964,-41.95830154,Caatinga
+393,LLANO,Venezuela,8.932999611,-67.41699982,North southamerica
+394,Llanos Orientales del Orinoco,Venezuela,7.5,-64.5,North southamerica
+395,Long Mountain,Jamaica,17.9769001,-76.74469757,Caribean
+396,Los Colorados,Colombia,9.85916996,-75.11060333,North southamerica
+397,Los pozos de Guanipa,Venezuela,9.550000191,-69.16000366,North southamerica
+398,LPAVAS1,Peru,-6.524720192,-79.46219635,South Pacific
+399,Luruaco,Colombia,10.60050011,-75.16000366,North southamerica
+400,"Macaíba, floresta decidual",Brazil,-5.887199879,-35.38140106,Caatinga
+401,"Macaúba, cerradão saturável",Brazil,-12.49419975,-47.74890137,Central Brazil
+402,"Macaúbas, caatinga carbonática",Brazil,-13.07059956,-42.49670029,Caatinga
+403,"Maciço do Urucum, sopés, floresta decidual",Brazil,-21.56830025,-53.0141983,Central Brazil
+404,Macuira,Colombia,12.19900036,-71.3506012,North southamerica
+405,Macuira2,Colombia,11.22299957,-73.49310303,North southamerica
+406,Maisi,Cuba,20.24580002,-74.14779663,Caribean
+407,Mallorquin,Paraguay,-25.34000015,-55.18999863,Misiones
+408,"Manga, Parque da Mata Seca, caatinga arbórea",Brazil,-14.80309963,-43.96110153,Caatinga
+409,"Mansidão, caatinga arbórea",Brazil,-10.8142004,-43.61420059,Caatinga
+410,Mantaro 1,Peru,-12.28555584,-74.85935974,South Pacific
+411,Mantaro 1&2,Peru,-12.08059978,-74.73280334,South Pacific
+412,Mantaro 2,Peru,-12.35794353,-74.6306076,South Pacific
+413,MANTARO1,Peru,-12.81669998,-74.38330078,South Pacific
+414,MANTARO2,Peru,-12.08329964,-74.5667038,South Pacific
+415,Maracayu,Paraguay,-25.04999924,-54.66999817,Misiones
+416,MARA�ON,Peru,-5.666999817,-78.69999695,South Pacific
+417,Mara�on 1,Peru,-6.432582855,-77.87330627,South Pacific
+418,Mara�on 2,Peru,-6.250916958,-77.93183136,South Pacific
+419,Mara�on 3,Peru,-6.099139214,-77.89291382,South Pacific
+420,"Marechal Cândido Rondon, floresta semidecidual",Brazil,-24.50469971,-54.28969955,Misiones
+421,MARIQUIT,Colombia,5.25,-74.83300018,North southamerica
+422,MASAYA,Nicaragua,11.96700001,-86.09999847,North southamerica
+423,"Matias Cardoso, Cajueiro, caatinga arbórea",Brazil,-15.0031004,-43.90029907,Caatinga
+424,"Matias Cardoso, Gado Bravo, caatinga arbórea",Brazil,-14.98219967,-43.52140045,Caatinga
+425,"Matias Cardoso, Verde Grande, caatinga arbórea",Brazil,-14.74919987,-43.82249832,Caatinga
+426,"Mato Verde, caatinga arbórea",Brazil,-15.39719963,-42.82830048,Caatinga
+427,MBARACAY,Paraguay,-24.13299942,-55.53300095,Misiones
+428,Mbaracay�,Paraguay,-24.04000092,-55.40999985,Misiones
+429,"Medianeira, floresta semidecidual",Brazil,-25.20859909,-54.19329834,Misiones
+430,MERCEDES,Venezuela,8.032999992,-66.33300018,North southamerica
+431,"Michoac�n: Mpio. Arteaga, en la cabecera del municipio y sus alrededores principalmente",Mexico,18.36249924,-102.2939987,Mesoamerica
+432,"Milagres, caatinga quartzosa",Brazil,-12.86940002,-39.8321991,Caatinga
+433,Millet Trail,Saint Lucia,13.89529991,-60.99560165,Caribean
+434,"Mina La Victoria, 5 km NW de la poblaci�n de El Callao, 15 km del SE de Guasipati",Venezuela,7.362780094,-61.83250046,North southamerica
+435,"Mineiros, cerrado",Brazil,-15.36919975,-48.87530136,Central Brazil
+436,MIRADERO,Peru,-3.970000029,-80.49849701,South Pacific
+437,Miranda_Cerradão,Brazil,-20.26670074,-56.23329926,Central Brazil
+438,"Mirandiba, caatinga quartzosa",Brazil,-8.068300247,-38.71749878,Caatinga
+439,"Mocambo, caatinga carbonática",Brazil,-12.76580048,-42.50719833,Caatinga
+440,Mocoret�,Argentina,-30.62000084,-57.99000168,Misiones
+441,Mocoret�,Argentina,-30.60000038,-57.9015007,Misiones
+442,Mocov�,Argentina,-28.41300011,-59.68740082,Misiones
+443,"Modelo, floresta semidecidual",Brazil,-26.72890091,-53.41030121,Misiones
+444,MOGOTE,Puerto Rico,18.41699982,-66.25,Caribean
+445,"Mon Repos, track to Trou Gras",Saint Lucia,13.85999966,-60.88679886,Caribean
+446,"Mondaí, floresta semidecidual",Brazil,-27.08860016,-53.50920105,Misiones
+447,Monolito a G�emes,Argentina,-24.86669922,-65.20999908,Piedmont
+448,"Montalvânia, caatinga arbórea",Brazil,-14.43470001,-44.41220093,Caatinga
+449,Monte Hermoso,Colombia,4.351439953,-76.36470032,North southamerica
+450,"Monte Rei, caatinga arbórea",Brazil,-14.44250011,-44.19889832,Caatinga
+451,"Monteiro, caatinga quartzosa",Brazil,-7.836400032,-37.19309998,Caatinga
+452,MONTERRE,Colombia,9.616999626,-74.90000153,North southamerica
+453,"Montes Claros, floresta decidual",Brazil,-16.74309921,-43.90719986,Caatinga
+454,"Montividiu, caatinga areno-rupícola",Brazil,-15.14140034,-42.69390106,Caatinga
+455,"Morpará, caatinga carbonática",Brazil,-11.66889954,-43.21640015,Caatinga
+456,"Morro do Chapéu, floresta areno-rupícola",Brazil,-11.00529957,-41.27890015,Caatinga
+457,MORROPON,Peru,-5.166999817,-79.96700287,South Pacific
+458,"Mossoró, caatinga costeira",Brazil,-5.144199848,-37.39360046,Caatinga
+459,Moule a Chique,Saint Lucia,13.71420002,-60.94749832,Caribean
+460,Mount le Blanc,Saint Lucia,13.76239967,-60.99779892,Caribean
+461,Moussy,Argentina,-29.02560043,-59.74269867,Misiones
+462,"Mpio. Asunci�n Ixtaltepec, Dist. Juchit�n: A orillas del ferrocarril trans�smico, a 13.5 km al norte de Ciudad Ixtepec.",Mexico,16.56279945,-95.1006012,Mesoamerica
+463,"Mpio. Asunci�n Ixtaltepec, Dist. Juchit�n: En los terrenos del Ejido de Nizanda, ubicados en la porci�n sur del Istmo de Tehuantepec",Mexico,16.66329956,-94.99720001,Mesoamerica
+464,"Mpio. Asunci�n Ixtepec, Distr. Juchit�n: Nizanda se ubicada en la parte sur del Istmo de Tehuantepec",Mexico,16.32250023,-95.23829651,Mesoamerica
+465,Mpio. Coatepec: Sureste de Tuzamap�n en los  alrededores de Vaquer�a.,Mexico,19.40139961,-96.86419678,Mesoamerica
+466,Mpio. Copalillo: Ca. de 14 km al este del municipio de Copalillo y sus alrededores cercanos al margen del R�o Mezcala (Papalutla).,Mexico,18.02529907,-98.91000366,Mesoamerica
+467,"Mpio. Eduardo Neri: regi�n centro del estado de Guerrero, colindancia al norte con los municipios de M�rtir de Cuilapan, Cocula y Tepecoacuilco",Mexico,17.54389954,-99.52030182,Mesoamerica
+468,"Mpio. Eduardo Neri: Se encuentra al suroeste de Xochipala, cerca del poblado de Mezcala y recorre parte del Mpio. Leonardo Bravo.",Mexico,17.93309975,-99.59999847,Mesoamerica
+469,"Mpio. entre La Paz y Los Cabos: Reserva de la Bi�sfera Sierra de La Laguna"" parte sureste de la Pen�nsula de Baja California""",Mexico,23.69939995,-110.1500015,Mesoamerica
+470,"Mpio. Hecelchak�n: Ejido Pomucho, sobre la planicie costera de Yucat�n",Mexico,20.13750076,-90.17420197,Mesoamerica
+471,Mpio. La Huerta: Ca. de 36.6  km al NE de la cabecera municipal,Mexico,19.57169914,-105.0739975,Mesoamerica
+472,Mpio. Los Cabos: Ca. 1.14 km al SO del poblado de Agua Caliente,Mexico,23.43330002,-109.7829971,Mesoamerica
+473,"Mpio. M�rida: 1 km al norte de Xmatkuil, en la Reserva de la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Aut�noma de Yucat�n",Mexico,20.85580063,-89.61669922,Mesoamerica
+474,Mpio. San Carlos Yautepec: Parte SO del poblado de La Concordia,Mexico,15.90139961,-96.16690063,Mesoamerica
+475,"Mpio. San Pedro Huamelula: ca. 92.37 km SO de Puerto de Salina Cruz, sobre la carretera M�xico 200",Mexico,15.84669971,-95.99780273,Mesoamerica
+476,"Mpio. Tejupilco: Sierra de Nanchititla, al SO del Estado de M�xico, a 147 km de la Ciudad de Toluca y al norte de Bejucos (vertiente sur de la sierra).",Mexico,18.84059906,-100.4140015,Mesoamerica
+477,Mpio. Tenabo: A 30 km al N de la capital del estado.,Mexico,20.04080009,-90.22530365,Mesoamerica
+478,"Mpio. Tixp�hual: En Villa de Tixp�ual, localizada a 20 km este de la Ciudad de M�rida, en los alrededores de Tekant�.",Mexico,20.97719955,-89.44029999,Mesoamerica
+479,Mpio. Yecora: Al sureste de la ciudad de Yecora,Mexico,28.37170029,-108.927002,Mesoamerica
+480,"Mpio. Zir�ndaro: El Cerro Tarimo se localiza en la subprovincia de la depresi�n del Balsas, al SE de la Barranca El Lim�n.",Mexico,18.47750092,-100.9899979,Mesoamerica
+481,"Mundo Novo, caatinga quartzosa",Brazil,-11.87059975,-40.39559937,Caatinga
+482,Municipio Sosa,Venezuela,8.149999619,-69.25,North southamerica
+483,Narino,Colombia,4.427279949,-74.83059692,North southamerica
+484,Natagaima,Colombia,3.568449974,-75.11699677,North southamerica
+485,"Nazário, cerrado rupícola",Brazil,-15.47189999,-48.84749985,Central Brazil
+486,Neguanje 2,Colombia,11.25599957,-74.08399963,North southamerica
+487,Neiva,Colombia,2.867889881,-75.22100067,North southamerica
+488,"Nioaque, cerradão mesotrófico",Brazil,-19.02779961,-57.5807991,Central Brazil
+489,"Nossa Senhora da Glória, caatinga quartzosa",Brazil,-10.23690033,-37.43170166,Caatinga
+490,"Nossa Senhora do Livramento, cerradao mesotrofico",Brazil,-16.25600052,-56.36999893,Central Brazil
+491,"Nossa Senhora do Livramento, floresta ripícola",Brazil,-16.73189926,-56.8382988,Central Brazil
+492,"Novo Oriente, carrasco arenícola",Brazil,-5.599400043,-40.90140152,Caatinga
+493,Nueva Esperanza,Paraguay,-26.34000015,-54.86999893,Misiones
+494,Obando,Colombia,4.646920204,-75.92140198,North southamerica
+495,Obando 2,Colombia,4.59513998,-75.96579742,North southamerica
+496,"Olhos d’Água, floresta decidual",Brazil,-17.30419922,-43.75360107,Caatinga
+497,"Oliveira dos Brejinhos, nanofloresta decidual rupícola",Brazil,-12.53470039,-42.85469818,Caatinga
+498,OMETEPE,Nicaragua,11.53299999,-85.61699677,North southamerica
+499,"Orós e Icó, caatinga quartzosa",Brazil,-6.300000191,-38.92829895,Caatinga
+500,Otas,Colombia,2.587559938,-75.36160278,North southamerica
+501,"Ouricuri, caatinga quartzosa",Brazil,-7.848899841,-40.0943985,Caatinga
+502,"Ouro Velho, caatinga quartzosa",Brazil,-7.598599911,-37.13190079,Caatinga
+503,P_EP_001,Peru,-5.974020004,-80.47200012,South Pacific
+504,P_EP_002,Peru,-5.917560101,-80.91490173,South Pacific
+505,P_EP_003,Peru,-4.664999962,-80.57499695,South Pacific
+506,P_EP_007,Peru,-4.769999981,-80.68000031,South Pacific
+507,P_EP_018,Peru,-4.929999828,-81.01000214,South Pacific
+508,P_EP_023,Peru,-4.929999828,-80.83999634,South Pacific
+509,P_EP_037,Peru,-4.929999828,-80.59999847,South Pacific
+510,P_EP_048,Peru,-5.090000153,-81.01000214,South Pacific
+511,P_EP_064,Peru,-5.170000076,-80.51999664,South Pacific
+512,P_EP_065,Peru,-5.122000217,-80.44000244,South Pacific
+513,P_EP_078,Peru,-5.150219917,-80.76319885,South Pacific
+514,P_EP_079,Peru,-5.169990063,-80.24749756,South Pacific
+515,P_EP_088,Peru,-5.539999962,-80.59999847,South Pacific
+516,P_EP_108,Peru,-5.820000172,-80.83999634,South Pacific
+517,P_EP_111,Peru,-5.78000021,-80.44000244,South Pacific
+518,P_EP_118,Peru,-5.900000095,-80.34999847,South Pacific
+519,P02,Peru,-5.690000057,-80.56999969,South Pacific
+520,P04,Peru,-5.417089939,-80.00240326,South Pacific
+521,P13,Peru,-5.375,-80.59500122,South Pacific
+522,P22,Peru,-4.559999943,-80.63999939,South Pacific
+523,P23,Peru,-4.47563982,-80.6934967,South Pacific
+524,P24,Peru,-4.550000191,-80.87999725,South Pacific
+525,P25,Peru,-4.670000076,-80.76000214,South Pacific
+526,P28,Peru,-4.460000038,-81.02500153,South Pacific
+527,P29,Peru,-4.309999943,-81.16000366,South Pacific
+528,P32,Peru,-4.769999981,-80.94499969,South Pacific
+529,P36,Peru,-5.420000076,-79.68000031,South Pacific
+530,P38,Peru,-5.289720058,-79.85949707,South Pacific
+531,P40,Peru,-5.28000021,-80.08999634,South Pacific
+532,P45,Peru,-4.889999866,-80.48000336,South Pacific
+533,P46,Peru,-4.619999886,-80.01999664,South Pacific
+534,P47,Peru,-4.519999981,-80.01000214,South Pacific
+535,P49,Peru,-4.340000153,-80.16000366,South Pacific
+536,P50,Peru,-4.53000021,-80.20999908,South Pacific
+537,P51,Peru,-4.469709873,-80.50740051,South Pacific
+538,P53,Peru,-4.329999924,-80.59999847,South Pacific
+539,P54,Peru,-4.650000095,-80.26999664,South Pacific
+540,P55,Peru,-5.03000021,-80.08000183,South Pacific
+541,P59,Peru,-5.719500065,-79.67870331,South Pacific
+542,P63,Peru,-5.539999962,-79.80010223,South Pacific
+543,"Pão de Açúcar, caatinga quartzosa",Brazil,-9.744999886,-37.39720154,Caatinga
+544,"Pão de Açúcar, floresta decidual rupícola",Brazil,-21.44470024,-57.89250183,Central Brazil
+545,"Padre Marcos, caatinga arenícola",Brazil,-7.349999905,-40.8932991,Caatinga
+546,"Pai Pedro, caatinga arbórea",Brazil,-15.56110001,-43.2242012,Caatinga
+547,Pal1 (Tocantins),Brazil,-12.90709972,-46.54869843,Central Brazil
+548,Pal3 (Tocantins),Brazil,-12.75650024,-46.46369934,Central Brazil
+549,Pal4 (Tocantins),Brazil,-12.6182003,-46.5984993,Central Brazil
+550,Palermo,Colombia,2.884670019,-75.40529633,North southamerica
+551,Palmeirópolis (Tocantins),Brazil,-13.16520023,-48.22510147,Central Brazil
+552,"Palmeiras, nanofloresta decidual rupícola",Brazil,-12.55280018,-41.61439896,Caatinga
+553,"Palmitos, floresta semidecidual",Brazil,-27.09140015,-53.09999847,Misiones
+554,Palomar,Colombia,10.79380035,-75.15049744,North southamerica
+555,"Palotina, floresta semidecidual",Brazil,-24.31310081,-53.91469955,Misiones
+556,PALOVERD,Costa Rica,10.33300018,-85.33300018,North southamerica
+557,Pan de azucar,Colombia,12.07299995,-71.20670319,North southamerica
+558,"Pandeiros, floresta decidual",Brazil,-15.51169968,-44.75329971,Caatinga
+559,PARABEL,Paraguay,-26.33300018,-55.53300095,Misiones
+560,"Paracatu, floresta decidual",Brazil,-17.22330093,-46.81890106,Central Brazil
+561,Paraje Km.302,Argentina,-29.01230049,-60.10559845,Misiones
+562,"Paramirim, caatinga arbórea",Brazil,-13.43080044,-42.20360184,Caatinga
+563,Pariahuanca 1,Peru,-12.03540039,-74.84970093,South Pacific
+564,Pariahuanca 2,Peru,-12.0539999,-74.79290009,South Pacific
+565,"Parnamirim, caatinga quartzosa",Brazil,-8.071399689,-39.50889969,Caatinga
+566,Parque Nacional Calilegua,Argentina,-23.75,-64.84999847,Piedmont
+568,"Parque Nacional das Emas, cerrado",Brazil,-13.51970005,-46.49969864,Central Brazil
+569,Paso de los Libres,Argentina,-29.98999977,-57.45000076,Misiones
+570,"Passos, floresta decidual",Brazil,-20.68889999,-46.52420044,Central Brazil
+571,Patia,Colombia,1.674409986,-77.30889893,North southamerica
+572,Patillal,Colombia,10.71220016,-73.23459625,North southamerica
+573,Patios,Colombia,7.784009933,-72.52709961,North southamerica
+574,"Patos, caatinga quartzosa",Brazil,-7,-37.38330078,Caatinga
+575,"Paulo Afonso, caatinga arenícola",Brazil,-9.073599815,-38.42279816,Caatinga
+576,"Pedra da Boca, floresta decidual de brejo",Brazil,-6.459700108,-35.68889999,Caatinga
+577,"Pedra da Onça, floresta decidual",Brazil,-15.99860001,-52.51079941,Central Brazil
+578,"Pedra Furada, caatinga quartzosa",Brazil,-8.553600311,-36.8382988,Caatinga
+579,"Pedro Gomes, floresta ripícola",Brazil,-20.44939995,-55.49639893,Central Brazil
+580,"Pendências, caatinga costeira",Brazil,-5.251699924,-36.70080185,Caatinga
+581,Pereira,Colombia,4.865029812,-75.85970306,North southamerica
+582,Pereira 2,Colombia,4.775599957,-75.87729645,North southamerica
+583,"Pesqueira, floresta decidual de brejo",Brazil,-8.340800285,-36.77750015,Caatinga
+584,"Petrolina, caatinga quartzosa",Brazil,-9.234199524,-40.60029984,Caatinga
+585,"Piatã, nanofloresta decidual rupícola",Brazil,-13.00139999,-41.76860046,Caatinga
+586,Piedecuesta,Colombia,6.89218998,-72.99859619,North southamerica
+587,Piedra La Tortuga,Venezuela,5.566669941,-67.58329773,North southamerica
+588,"Piedra Lisa, Pen�nsula de Macanao, Isla de Margarita",Venezuela,11.01669979,-64.26670074,North southamerica
+589,Piedras,Colombia,4.54226017,-74.91300201,North southamerica
+590,"Pilão Arcado, caatinga arenícola",Brazil,-10.11830044,-42.88529968,Caatinga
+591,Piojo,Colombia,10.7276001,-75.11460114,North southamerica
+592,"Pirenópolis, cerrado",Brazil,-13.15060043,-46.65499878,Central Brazil
+593,"Pirenópolis, cerrado",Brazil,-13.15219975,-46.65599823,Central Brazil
+594,"Pirenopolis, cerrado rupicola",Brazil,-15.81099987,-48.87799835,Central Brazil
+595,PIURA1,Peru,-5.266670227,-81,South Pacific
+596,PIURA2,Peru,-5.150000095,-79.61669922,South Pacific
+597,Playa Peru,Colombia,10.8757,-75.08190155,North southamerica
+598,PNNMacuira,Colombia,12.24190044,-71.44219971,North southamerica
+599,"Poço Redondo, caatinga arenícola",Brazil,-9.818900108,-37.81829834,Caatinga
+600,"Pombal, caatinga quartzosa",Brazil,-6.770599842,-37.77690125,Caatinga
+601,"Porteirinha, caatinga arbórea",Brazil,-15.72780037,-43.04109955,Caatinga
+602,"Porto Esperidião, floresta ripícola",Brazil,-16.61100006,-56.26300049,Central Brazil
+603,"Porto Esperidião, floresta ripícola",Brazil,-16.61079979,-56.26250076,Central Brazil
+604,"Porto Esperidião, floresta ripícola",Brazil,-16.62400055,-56.22299957,Central Brazil
+605,"Porto Murtinho, floresta estacional inundável",Brazil,-21.59939957,-57.83470154,Central Brazil
+606,Portuguesa River,Venezuela,9.066390038,-69.61640167,North southamerica
+607,POTRERO,Costa Rica,10.5170002,-85.30000305,North southamerica
+608,Presidente de la Plaza,Argentina,-26.83939934,-59.70259857,Misiones
+609,"Presidente Olegário, floresta decidual",Brazil,-18.37669945,-46.41139984,Central Brazil
+610,"Primavera, cuenca del r�o Aquidab�n",Paraguay,-23.09000015,-57.22000122,Central Brazil
+611,Providencia,Colombia,13.35000038,-81.34999847,North southamerica
+612,Puerto Guaran�,Paraguay,-26.34000015,-57.56000137,Misiones
+613,Puerto Ocopa,Peru,-11.22430038,-74.41719818,South Pacific
+614,"Puerto Su�rez, bosque seco",Bolivia,-19.06999969,-58.15000153,Central Brazil
+615,QFAICAL,Peru,-3.833329916,-80.26670074,South Pacific
+616,"Quedas do Iguaçu, floresta semidecidual",Brazil,-25.55780029,-52.97940063,Misiones
+617,"Queimadas, caatinga quartzosa",Brazil,-10.97640038,-39.58969879,Caatinga
+618,Quillabamba 1,Peru,-12.64969444,-72.53130341,South Pacific
+619,Quillambamba 2,Peru,-12.64008331,-72.69091797,South Pacific
+620,Quimbo,Colombia,2.309000015,-75.63800049,North southamerica
+621,"Quixadá, caatinga quartzosa",Brazil,-4.918300152,-39.07189941,Caatinga
+622,RACALI,Peru,-5.017000198,-79.68299866,South Pacific
+623,Raillon south,Saint Lucia,13.87049961,-60.93629837,Caribean
+624,Reconquista,Argentina,-29.14080048,-60.0530014,Misiones
+625,Reconquista,Argentina,-29.32559967,-60.13380051,Misiones
+626,"Regi�n central de Veracruz, Mpio. Paso de Ovejas: Ca. 0.45 km al SE del poblado de Paso de Ovejas",Mexico,20.25,-97.40000153,Mesoamerica
+627,"Regi�n de valles centrales: Mpio. Xalapa, ca.  32.93 km al NO de El Cofre de Perote.",Mexico,19.58329964,-96.84999847,Mesoamerica
+628,"Remígio, caatinga quartzosa",Brazil,-6.883299828,-35.79439926,Caatinga
+629,"Remanso, caatinga arenícola",Brazil,-9.656900406,-42.2193985,Caatinga
+630,"Represa de Guri, Danto Manchado, 20 km al S de la represa",Venezuela,7.366670132,-62.91669846,North southamerica
+631,"Represa de Guri, Las Carolinas, 15 km al E de la central hidrol�ctrica",Venezuela,7.766670227,-62.91669846,North southamerica
+632,"Represa de Pueblo Viejo, Municipio Lagunillas",Venezuela,10.18330002,-71.03330231,North southamerica
+633,Reserva Chacocente,Nicaragua,11.53439999,-86.18530273,North southamerica
+634,Reserva Forestal de Caparo,Venezuela,7.500559807,-70.77110291,North southamerica
+635,Resistencia,Argentina,-27.65279961,-59.0143013,Misiones
+636,Restrepo,Colombia,3.751610041,-76.56620026,North southamerica
+637,"Riachão das Neves, caatinga arbórea",Brazil,-11.67440033,-45.00439835,Caatinga
+638,"Ribeirão Preto, floresta decidual",Brazil,-21.2928009,-47.89810181,Central Brazil
+639,"Rio Apa, floresta estacional inundável",Brazil,-22.03359985,-57.5141983,Central Brazil
+640,"Rio Aquidabã, floresta estacional inundável",Brazil,-21.41749954,-57.53279877,Central Brazil
+641,"Rio Caracol, cerradão mesotrófico",Brazil,-19.46809959,-56.99560165,Central Brazil
+642,"Rio Jaburu, floresta de várzea",Brazil,-10.79609966,-49.88560104,Central Brazil
+643,"Rio Negro de Mato Grosso, floresta ripícola",Brazil,-21.15859985,-55.71279907,Central Brazil
+644,"Rio Verde de Mato Grosso, cerrado",Brazil,-20.37579918,-56.46580124,Central Brazil
+645,"Rio Verde de Mato Grosso, floresta ripícola",Brazil,-21.13190079,-55.86439896,Central Brazil
+646,"Rio Verde, floresta semidecidual",Brazil,-15.76809978,-49.0821991,Central Brazil
+647,RioChira,Peru,-4.616670132,-80.5667038,South Pacific
+648,Riofrio,Colombia,4.148700237,-76.27400208,North southamerica
+649,Riohacha,Colombia,11.19489956,-72.85939789,North southamerica
+650,RioSeco,Colombia,4.890100002,-74.74160004,North southamerica
+651,RIOUBITO,Bolivia,-14.36699963,-68.5,Piedmont
+652,Rivadavia,Argentina,-24.18330002,-62.88330078,Piedmont
+653,River Rock Road,Saint Lucia,13.93179989,-61.03680038,Caribean
+654,Rivera,Uruguay,-31.40999985,-55.83000183,Misiones
+655,Rivera,Colombia,2.75921011,-75.27089691,North southamerica
+656,"Rodeio Bonito, floresta semidecidual",Brazil,-27.47030067,-53.11439896,Misiones
+657,"Rodelas, caatinga arenícola",Brazil,-8.877799988,-38.73469925,Caatinga
+658,Roldanillo,Colombia,4.437439919,-76.16660309,North southamerica
+659,"Rondonópolis, floresta ripícola",Brazil,-16.74830055,-56.97140121,Central Brazil
+660,ROUNDSLO,Jamaica,17.33300018,-77.41699982,Caribean
+661,RQUIROZ,Peru,-4.833000183,-79.66699982,South Pacific
+662,"São Bento do Una, floresta decidual de brejo",Brazil,-8.533100128,-36.54970169,Caatinga
+663,"São Desidério, caatinga arbórea",Brazil,-12.37110043,-44.96469879,Caatinga
+664,"São Félix do Coribe, caatinga arbórea",Brazil,-13.79329967,-44.30189896,Caatinga
+665,"São Francisco, floresta decidual",Brazil,-16.00499916,-44.8810997,Central Brazil
+666,"São João do Cariri, caatinga quartzosa",Brazil,-7.398900032,-36.4919014,Caatinga
+667,"São José do Belmonte, caatinga quartzosa",Brazil,-7.873099804,-38.83750153,Caatinga
+668,"São José do Piauí, caatinga arenícola",Brazil,-6.851900101,-41.48249817,Caatinga
+669,"São José dos Cordeiros, caatinga quartzosa",Brazil,-7.468900204,-36.9007988,Caatinga
+670,"São Luiz Gonzaga, floresta semidecidual",Brazil,-28.35029984,-54.92029953,Misiones
+671,"São Miguel das Missões, floresta semidecidual",Brazil,-28.65139961,-54.63890076,Misiones
+672,"São Nicolau, floresta semidecidual",Brazil,-28.24169922,-55.28310013,Misiones
+673,"São Romão, floresta decidual",Brazil,-16.19890022,-45.17279816,Central Brazil
+674,Sabana,Cuba,20.31469917,-74.24720001,Caribean
+675,Sabanilla,Colombia,10.9666996,-74.96330261,North southamerica
+676,"Sagarana, floresta decidual",Brazil,-16.19309998,-46.15499878,Central Brazil
+677,"Salgueiro, caatinga quartzosa",Brazil,-8.070799828,-39.09690094,Caatinga
+678,"Salinas, caatinga arbórea",Brazil,-16.2317009,-42.26330185,Caatinga
+679,San Antonio de Pach�n,Argentina,-28.01919937,-65.69860077,Piedmont
+680,San Javier,Argentina,-27.68000031,-54.95000076,Misiones
+681,"San Jos� de Chiquitos, mata seca",Bolivia,-18,-60.56999969,Piedmont
+682,San Jos� de Guaviare,Venezuela,9.816670418,-65.83329773,North southamerica
+683,"San Lorenzo, bosque seco",Bolivia,-17.21999931,-62.95000076,Piedmont
+684,San Martin de Sechura,Peru,-5.833330154,-80.5,South Pacific
+685,"San Mateo de la Paragua, Distrito Heres",Venezuela,6.900000095,-63.1330986,North southamerica
+686,San Matias,Bolivia,-16.5,-58.5,Central Brazil
+687,"San Miguelito, mata seca",Bolivia,-17.03000069,-61.84999847,Piedmont
+688,San Rafael del Paran�,Paraguay,-26.5,-55.00999832,Misiones
+689,"San Rafael, mata seca",Bolivia,-16.64999962,-60.09999847,Piedmont
+690,San_Jorge,Colombia,8.620439529,-75.52140045,North southamerica
+691,SanIgnacio_Perico,Peru,-5.230000019,-78.47000122,South Pacific
+692,SANSEBAS,Colombia,9.25,-74.34999847,North southamerica
+693,"Santa Brígida, caatinga arenícola",Brazil,-9.576700211,-38.50189972,Caatinga
+694,"Santa Cruz de la Sierra, mata seca",Bolivia,-17.78000069,-63.06999969,Piedmont
+695,"Santa Fé de Minas, floresta decidual",Brazil,-16.88190079,-45.32220078,Central Brazil
+696,"Santa Fe, bosque seco",Argentina,-31.75,-60.54999924,Misiones
+697,"Santa Helena, floresta semidecidual",Brazil,-24.88419914,-54.22389984,Misiones
+698,"Santa Isabel do Morro, cerradão saturável",Brazil,-12.79469967,-46.6996994,Central Brazil
+699,"Santa Isabel do Morro, cerradão saturável",Brazil,-12.81270027,-46.68220139,Central Brazil
+700,"Santa Maria da Boa Vista, caatinga quartzosa",Brazil,-8.768600464,-39.82419968,Caatinga
+701,"Santa Maria da Vitoria, caatinga arbórea",Brazil,-13.45639992,-44.17580032,Caatinga
+702,"Santa Quitéria, caatinga quartzosa",Brazil,-4.293600082,-40.09669876,Caatinga
+703,Santa Rosa del Monday,Paraguay,-25.84000015,-54.86000061,Misiones
+704,"Santa Rosa, floresta semidecidual",Brazil,-27.8906002,-54.55220032,Misiones
+705,"Santa Vitória, floresta decidual",Brazil,-19.17939949,-50.69689941,Central Brazil
+706,SANTACRU,Bolivia,-17.7670002,-63.06669998,Piedmont
+707,SantaMarta,Colombia,11.1704998,-74.16220093,North southamerica
+708,"Santana do Cariri, carrasco arenícola",Brazil,-7.262499809,-39.65999985,Caatinga
+709,"Santana, caatinga carbonática",Brazil,-12.95689964,-44.04919815,Caatinga
+710,SANTIAGO,Bolivia,-18.33300018,-59.5,Central Brazil
+711,Santiago,Colombia,7.900650024,-72.65869904,North southamerica
+712,"Santo Ângelo, floresta semidecidual",Brazil,-28.19560051,-54.1719017,Misiones
+713,"Santo Antônio do Retiro, caatinga areno-rupícola",Brazil,-15.12779999,-43.02000046,Caatinga
+714,"Santo Coraz�n, mata seca",Bolivia,-18.12000084,-58.95000076,Central Brazil
+715,"Santo Hipólito, floresta decidual",Brazil,-18.29140091,-44.19060135,Central Brazil
+716,SdeChilichao,Colombia,3.092859983,-76.42469788,North southamerica
+717,"Selva de Ticoporo, Distrito Pedraza",Venezuela,8.006669998,-70.61750031,North southamerica
+718,"Senhor do Bonfim, floresta decidual rupícola",Brazil,-10.40559959,-40.21500015,Caatinga
+719,"Seridó, caatinga quartzosa",Brazil,-6.620600224,-37.32170105,Caatinga
+720,"Serra Branca, caatinga quartzosa",Brazil,-7.515600204,-36.64530182,Caatinga
+721,"Serra da Capivara, floresta areno-rupícola",Brazil,-8.531399727,-42.73720169,Caatinga
+722,"Serra da Capivara, Tabuleiro, caatinga arenícola",Brazil,-8.73939991,-42.4693985,Caatinga
+723,"Serra das Almas, caatinga quartzosa",Brazil,-5.125599861,-40.86859894,Caatinga
+724,"Serra das Almas, carrasco arenícola",Brazil,-5.173099995,-40.93500137,Caatinga
+725,"Serra das Almas, floresta areno-rupícola",Brazil,-5.113900185,-40.92079926,Caatinga
+726,"Serra das Confusões, floresta arenícola",Brazil,-8.925800323,-43.36169815,Caatinga
+727,"Serra das Confusões, nanofloresta arenícola",Brazil,-9.210800171,-43.49580002,Caatinga
+728,"Serra das Mangabeiras, floresta areno-rupícola",Brazil,-12.01080036,-42.72249985,Caatinga
+729,"Serra de Maracaju, cerradão mesotrófico",Brazil,-17.77249908,-57.62250137,Central Brazil
+730,"Serra de Pacatuba, floresta decidual de brejo",Brazil,-4.014699936,-38.66249847,Caatinga
+731,"Serra Negra, caatinga quartzosa",Brazil,-8.571700096,-38.13029861,Caatinga
+732,"Serra Negra, floresta decidual de brejo",Brazil,-8.65170002,-38.02420044,Caatinga
+733,"Serra Preta, mata decidual do Agreste",Brazil,-12.15359974,-39.36309814,Caatinga
+734,"Serra Talhada, caatinga quartzosa",Brazil,-7.851900101,-38.26919937,Caatinga
+735,"Serra Vermelha, caatinga arbórea",Brazil,-9.656700134,-44.12440109,Caatinga
+736,"Serranópolis do Iguaçu, floresta semidecidual",Brazil,-25.4605999,-54.03110123,Misiones
+737,"Serranópolis, cerrado",Brazil,-13.79749966,-46.59420013,Central Brazil
+738,"Serrania Volcanes, bosque andino",Bolivia,-18.10000038,-63.56999969,Piedmont
+739,"Serranias de Santiago, mata seca",Bolivia,-18.31999969,-59.61999893,Piedmont
+740,"Sertânia, caatinga quartzosa",Brazil,-8.101099968,-37.27170181,Caatinga
+741,"Sete Cidades, nanofloresta arenícola",Brazil,-4.067200184,-41.69670105,Central Brazil
+742,SFERLLO1,Colombia,11.21700001,-74.23300171,North southamerica
+743,"Sidrolândia, cerradão mesotrófico",Brazil,-18.97439957,-56.64310074,Central Brazil
+744,"Sousa, caatinga quartzosa",Brazil,-6.718299866,-38.17639923,Caatinga
+745,SP01,Paraguay,-25.5,-54.78300095,Misiones
+746,STAROSA,Costa Rica,10.83300018,-85.66699982,North southamerica
+747,Suarez,Colombia,4.249420166,-74.76670074,North southamerica
+748,"Sumé, caatinga quartzosa",Brazil,-7.770599842,-36.93920135,Caatinga
+749,Tabiro,Colombia,7.847559929,-72.63020325,North southamerica
+750,Tambo,Colombia,3.652970076,-75.08860016,North southamerica
+751,Tame,Colombia,6.409609795,-71.89489746,North southamerica
+752,Tamesis,Colombia,5.785200119,-75.66519928,North southamerica
+753,"Tangará da Serra, floresta ripícola",Brazil,-16.96610069,-56.92029953,Central Brazil
+754,Tapyt�,Paraguay,-26.13999939,-55.45000076,Misiones
+755,Tarapoto 1,Peru,-6.735416889,-76.29850006,South Pacific
+756,Tarapoto 2,Peru,-7.09091711,-76.33427429,South Pacific
+757,Tarapoto 3,Peru,-6.510000229,-76.36000061,South Pacific
+758,Tarapoto 3,Peru,-6.837193966,-76.34005737,South Pacific
+759,Tarapoto 4,Peru,-6.965110779,-76.3275528,South Pacific
+760,TARUMA,Paraguay,-25.83300018,-55.66699982,Misiones
+761,Tasajero,Colombia,7.997220039,-72.43060303,North southamerica
+762,"Tauá, caatinga quartzosa",Brazil,-6.013100147,-40.40859985,Caatinga
+763,Tava�,Paraguay,-26.29000092,-56.20000076,Misiones
+764,TAYRONA,Colombia,11.33300018,-74.03330231,North southamerica
+765,TayronaNeguanje,Colombia,11.26469994,-73.90170288,North southamerica
+766,TEMPISQU,Costa Rica,10.43330002,-85.36699677,North southamerica
+767,"Tenente Portela, floresta semidecidual",Brazil,-27.36940002,-53.68830109,Misiones
+768,"Terenos, floresta ripícola",Brazil,-21.97360039,-56.25,Central Brazil
+769,"Terevinto, mata seca",Bolivia,-17.70000076,-63.40000153,Piedmont
+770,Tobat�,Paraguay,-25.12000084,-57.06999969,Misiones
+771,"Toledo, floresta, semidecidual",Brazil,-24.71719933,-53.92470169,Misiones
+772,TOROBAMBA17,Peru,-13.06000042,-73.94000244,South Pacific
+773,Tos1 (Tocantins),Brazil,-13.03999996,-48.48360062,Central Brazil
+774,"Três Barras do Paraná, floresta semidecidual",Brazil,-25.43309975,-53.13970184,Misiones
+775,"Três Marias, floresta decidual",Brazil,-18.08860016,-45.18330002,Central Brazil
+776,Track to Anse Islet,Saint Lucia,13.77180004,-60.9109993,Caribean
+777,Trancas,Argentina,-26.12989998,-65.36930084,Piedmont
+778,"Triunfo, floresta decidual de brejo",Brazil,-7.84499979,-38.1114006,Caatinga
+779,"Tucano, caatinga arenícola",Brazil,-11.16889954,-38.73360062,Caatinga
+780,"Tucano, caatinga quartzosa",Brazil,-10.87530041,-39.03639984,Caatinga
+781,"Tucunduva e Alecrim, floresta semidecidual",Brazil,-27.6508007,-54.4510994,Misiones
+782,TUMBES,Peru,-3.617000103,-80.5,South Pacific
+783,"Tunápolis, floresta semidecidual",Brazil,-26.95669937,-53.68560028,Misiones
+784,"Uauá, caatinga quartzosa",Brazil,-9.787799835,-39.75690079,Caatinga
+785,"Ubajara, carrasco arenícola",Brazil,-3.753599882,-41.0503006,Caatinga
+786,"Uberlândia, Buriti, floresta decidual",Brazil,-18.81940079,-48.15999985,Central Brazil
+787,UCHIRE,Venezuela,10.14999962,-65.41699982,North southamerica
+788,"Unaí, Gruta do Curral, floresta decidual",Brazil,-16.40559959,-47.0760994,Central Brazil
+789,UNAGATO,Peru,-4.166999817,-80.78299713,South Pacific
+790,"Urandi, caatinga arbórea",Brazil,-14.73999977,-42.54639816,Caatinga
+791,"Uruana de Minas, floresta decidual",Brazil,-16.09309959,-46.38029861,Central Brazil
+792,"Urucuia, floresta decidual",Brazil,-16.23060036,-45.53219986,Central Brazil
+793,Uvero,Cuba,21.84390068,-84.43830109,Caribean
+794,"Várzea da Palma, floresta decidual",Brazil,-17.59219933,-44.7071991,Central Brazil
+795,"Vale do Curaçá, caatinga arenícola",Brazil,-9.665800095,-39.96969986,Caatinga
+796,Vera,Argentina,-29.34790039,-60.24160004,Misiones
+797,Veral,Cuba,21.93560028,-84.53109741,Caribean
+798,"Vertiente sur Cordillera de la Costa, Facultad de Agronom�a, UCV, Municipio Mario Brice�o Iragorri",Venezuela,10.26809978,-67.60610199,North southamerica
+799,Villa Ocampo,Argentina,-28.44219971,-59.21749878,Misiones
+800,Without specific locality (coordinate approx. representing the state),Venezuela,10.91390038,-69.02310181,North southamerica
+801,"Xique-xique, caatinga arenícola",Brazil,-10.80029964,-42.67750168,Caatinga
+802,YANAIGUA,Bolivia,-19.70000076,-62.09999847,Piedmont
+803,YANOMAYO,Bolivia,-14.39999962,-68.46700287,Piedmont
+804,Ypet�,Paraguay,-25.39999962,-55.29999924,Misiones
+805,"Zona del Alto Tucupido, Distrito Guanare",Venezuela,8.961110115,-69.84359741,North southamerica
+806,"Zona Protectora Burro Negro""",Venezuela,10.47000027,-70.75669861,North southamerica
