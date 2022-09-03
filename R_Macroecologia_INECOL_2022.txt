@@ -1,0 +1,41 @@
+Macroecología INECOL 2022
+
+Software requerido: R (https://cran.r-project.org) y RStudio (https://www.rstudio.com)
+**Los ejercicios fueron probados en la R version 4.2.1
+
+Paquetes/Librerias de R necesarias (pueden bajarse directo desde RStudio):
+
+Macroecología general (datos):
+rgdal
+rgeos
+sp
+raster
+rasterVis
+maptools
+
+*Los paquetes anteriores serán discontinuados en 2023. Se sugiere mudarse (acostumbrarse) a usar todos los datos espaciales con los paquetes 'sf' y 'terra' en lugar de 'rgdal', 'rgeos', 'sp' y 'raster'. En los ejercicios usaremos todos para fines didácticos. 
+
+maps
+dismo
+rgbif
+ggmap
+ggplot2
+sf
+terra
+rnaturalearth
+tidyterra
+dplyr
+
+
+
+Análisis Espacial:
+letsR
+spdep
+SpatialPack
+vegan
+ecodist
+
+Análisis evolutivo:
+ape
+caper
+picante
